@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anubhuti Srivastava</title>
+<meta name="description" content="Anubhuti Srivastava - Business Analyst / Associate Product Manager with a software engineering background. Requirements, product workflows and Agile delivery for logistics, edtech and SaaS products.">
+<meta property="og:title" content="Anubhuti Srivastava">
+<meta property="og:description" content="Business Analyst / Associate Product Manager and ex-software engineer.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%231F4E79'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='28' fill='white'>AS</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f6f2; --surface:#ffffff; --text:#1b1d22; --muted:#5b6070; --line:#e4e2db;
+  --accent:#1f4e79; --accent-soft:#e3ecf5; --chip:#efeee8;
+  --max:1040px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#111317; --surface:#181b21; --text:#eceef2; --muted:#a2a8b6; --line:#2a2e37;
+    --accent:#8db8e6; --accent-soft:#1d2a3a; --chip:#222630;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#111317; --surface:#181b21; --text:#eceef2; --muted:#a2a8b6; --line:#2a2e37;
+  --accent:#8db8e6; --accent-soft:#1d2a3a; --chip:#222630;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 16px}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+header.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:16px}
+.brand{font-weight:700;color:var(--text);letter-spacing:.2px}
+.brand:hover{text-decoration:none}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+nav a{color:var(--muted);font-size:14px;font-weight:500}
+nav a:hover{color:var(--text);text-decoration:none}
+.theme-btn{background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;width:34px;height:34px;cursor:pointer;font-size:15px}
+@media (max-width:720px){nav ul{display:none}}
+
+/* hero */
+.hero{padding:88px 0 64px}
+.eyebrow{display:inline-block;font-size:13px;font-weight:600;color:var(--accent);background:var(--accent-soft);padding:4px 12px;border-radius:999px;margin-bottom:20px}
+h1{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:clamp(36px,6vw,58px);line-height:1.08;margin:0 0 18px;letter-spacing:-.5px}
+.lead{font-size:clamp(17px,2.2vw,20px);color:var(--muted);max-width:680px;margin:0 0 30px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 20px;border-radius:10px;font-weight:600;font-size:15px;border:1px solid var(--accent)}
+.btn.primary{background:var(--accent);color:var(--bg)}
+.btn.ghost{color:var(--accent)}
+.btn:hover{text-decoration:none;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:56px;max-width:720px}
+.stat{border-left:3px solid var(--accent);padding:4px 0 4px 14px}
+.stat b{display:block;font-size:26px;line-height:1.2}
+.stat span{font-size:14px;color:var(--muted)}
+@media (max-width:560px){.stats{grid-template-columns:1fr}}
+
+/* sections */
+section{padding:64px 0;border-top:1px solid var(--line)}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:30px;margin:0 0 8px}
+.sub{color:var(--muted);margin:0 0 36px;max-width:640px}
+
+/* about */
+.about{display:grid;grid-template-columns:1.4fr 1fr;gap:40px}
+.about p{margin:0 0 14px}
+.facts{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.facts dt{font-size:12px;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-top:14px}
+.facts dt:first-child{margin-top:0}
+.facts dd{margin:2px 0 0;font-weight:500}
+@media (max-width:800px){.about{grid-template-columns:1fr}}
+
+/* case studies */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;display:flex;flex-direction:column}
+.card .tag{font-size:12px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.8px}
+.card h3{font-size:19px;margin:8px 0 10px;line-height:1.35}
+.card p{color:var(--muted);font-size:15px;margin:0 0 10px}
+.card .label{font-size:13px;font-weight:600;color:var(--text);margin-top:6px}
+.card .stack{margin-top:auto;padding-top:14px;display:flex;flex-wrap:wrap;gap:6px}
+@media (max-width:900px){.cards{grid-template-columns:1fr}}
+
+/* experience */
+.timeline{position:relative;margin:0;padding:0;list-style:none}
+.job{display:grid;grid-template-columns:200px 1fr;gap:28px;padding:26px 0;border-bottom:1px dashed var(--line)}
+.job:last-child{border-bottom:none}
+.when{color:var(--muted);font-size:14px;font-weight:500}
+.job h3{margin:0;font-size:19px}
+.job .org{color:var(--accent);font-weight:600;font-size:15px}
+.job .prod{color:var(--muted);font-style:italic;font-size:14px;margin:4px 0 10px}
+.job ul{margin:0;padding-left:18px}
+.job li{margin:5px 0}
+@media (max-width:700px){.job{grid-template-columns:1fr;gap:6px}}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.skill-group{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.skill-group h3{margin:0 0 12px;font-size:16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--chip);border-radius:999px;padding:4px 12px;font-size:13.5px}
+@media (max-width:700px){.skills{grid-template-columns:1fr}}
+
+/* education */
+.edu{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.edu div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.edu b{display:block;font-size:18px}
+.edu span{color:var(--muted);font-size:15px}
+@media (max-width:700px){.edu{grid-template-columns:1fr}}
+
+/* contact */
+.contact{text-align:center;padding:80px 0}
+.contact .cta{justify-content:center}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Anubhuti Srivastava</a>
+    <nav><ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul></nav>
+    <button class="theme-btn" id="themeBtn" aria-label="Toggle dark mode">◐</button>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <span class="eyebrow">Business Analyst · Associate Product Manager · Ex-Software Engineer</span>
+    <h1>I turn messy business problems into clear products teams can build.</h1>
+    <p class="lead">I'm Anubhuti, a business analyst and product person based in Lucknow, India. I write requirements, design workflows and keep delivery on track, and my background as a backend engineer helps me talk with developers about trade-offs and feasibility.</p>
+    <div class="cta">
+      <a class="btn primary" href="#contact">Get in touch</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>~2 yrs</b><span>across product, program &amp; engineering</span></div>
+      <div class="stat"><b>~25%</b><span>fewer delivery delays through early risk tracking</span></div>
+      <div class="stat"><b>2 products</b><span>taken from planning to release</span></div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap about">
+      <div>
+        <h2>About</h2>
+        <p>My career has moved from writing code to deciding what should be built. I started as a software engineer building REST APIs and WhatsApp integrations. I then moved to technical program management, running sprints and cross-functional teams. Today I work as a Business Analyst / Associate Product Manager on a logistics platform.</p>
+        <p>I like workflow-heavy problems: understanding how people actually work, finding where the process breaks, and turning that into requirements, user stories and edge cases that developers and QA can rely on.</p>
+        <p>I'm most interested in B2B SaaS, AI-powered and data-driven products.</p>
+      </div>
+      <dl class="facts">
+        <dt>Currently</dt><dd>Business Analyst / APM at Thrymr Software</dd>
+        <dt>Focus</dt><dd>Requirements, product workflows, Agile delivery</dd>
+        <dt>Domains</dt><dd>Logistics, EdTech, customer engagement SaaS</dd>
+        <dt>Based in</dt><dd>Lucknow, India</dd>
+        <dt>Open to</dt><dd>Business Analyst, Product and Project Manager roles</dd>
+      </dl>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="wrap">
+      <h2>Selected work</h2>
+      <p class="sub">Three projects that show how I work, from requirements to delivery to engineering.</p>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">Logistics · Product</span>
+          <h3>A configurable document workflow for CargoSphere</h3>
+          <p class="label">Problem</p>
+          <p>Supporting documents had to move through many document types and business roles, and building a separate flow for each one would not scale.</p>
+          <p class="label">What I did</p>
+          <p>I owned the requirements from discovery to UAT. I defined one configurable workflow in place of one-off flows, and documented business rules, validations and edge cases before development started.</p>
+          <p class="label">Outcome</p>
+          <p>Document handling became consistent and scalable across the product.</p>
+          <div class="stack"><span class="chip">PRD</span><span class="chip">User stories</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">UAT</span></div>
+        </article>
+        <article class="card">
+          <span class="tag">EdTech · Program</span>
+          <h3>Rank &amp; college predictors for Careers360 Companion</h3>
+          <p class="label">Problem</p>
+          <p>Students choosing colleges after Class 12 needed personalised, data-driven guidance, delivered on tight deadlines.</p>
+          <p class="label">What I did</p>
+          <p>I ran program management for 2 products with 2 cross-functional teams: sprint planning, stand-ups, reviews, dependency tracking and stakeholder updates.</p>
+          <p class="label">Outcome</p>
+          <p>Real-time rank and college predictors were released on time, and delivery delays fell by about 25% through early risk management.</p>
+          <div class="stack"><span class="chip">Scrum</span><span class="chip">Jira</span><span class="chip">Risk management</span><span class="chip">Stakeholders</span></div>
+        </article>
+        <article class="card">
+          <span class="tag">SaaS · Engineering</span>
+          <h3>WhatsApp Business integration for Babbler</h3>
+          <p class="label">Problem</p>
+          <p>Businesses on the Babbler engagement platform needed automated, real-time conversations with customers on WhatsApp.</p>
+          <p class="label">What I did</p>
+          <p>I built REST APIs in FastAPI on top of Meta's WhatsApp Business APIs, handling authentication, validation, request transformation and error handling. I also wrote the technical specifications.</p>
+          <p class="label">Outcome</p>
+          <p>The work enabled automated customer engagement workflows alongside email and SMS.</p>
+          <div class="stack"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">MongoDB</span><span class="chip">REST APIs</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <h2>Experience</h2>
+      <p class="sub">From engineering, to program management, to product and business analysis.</p>
+      <ol class="timeline">
+        <li class="job">
+          <div class="when">Jun 2026 – Present</div>
+          <div>
+            <h3>Business Analyst / Associate Product Manager</h3>
+            <div class="org">Thrymr Software</div>
+            <div class="prod">CargoSphere: an end-to-end logistics management platform</div>
+            <ul>
+              <li>Gather requirements from business stakeholders and turn them into BRDs, FRDs, PRDs, user stories and acceptance criteria.</li>
+              <li>Map AS-IS and TO-BE logistics processes, identifying gaps, business rules, dependencies and edge cases before development.</li>
+              <li>Work with developers and QA through development, testing and UAT, and track priorities and blockers in Jira across Agile sprints.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="job">
+          <div class="when">Mar 2026 – Jun 2026</div>
+          <div>
+            <h3>Technical Program Manager</h3>
+            <div class="org">Careers360</div>
+            <div class="prod">Companion: a career guidance platform for students</div>
+            <ul>
+              <li>Led end-to-end program management for 2 products, from planning to release.</li>
+              <li>Coordinated 2 cross-functional teams of developers, QA engineers and product managers.</li>
+              <li>Reduced delivery delays by about 25% by identifying and handling risks early.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="job">
+          <div class="when">Feb 2025 – Mar 2026</div>
+          <div>
+            <h3>Software Development Engineer (SDE-1)</h3>
+            <div class="org">MakunaiGlobal Technologies</div>
+            <div class="prod">Babbler: a multi-channel customer engagement platform (WhatsApp, email, SMS)</div>
+            <ul>
+              <li>Built REST APIs in FastAPI integrating Meta's WhatsApp Business APIs.</li>
+              <li>Took part in requirement discussions, feature planning and solution design with product managers.</li>
+              <li>Managed data in MongoDB and documented technical specifications and system workflows.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>Skills &amp; tools</h2>
+      <p class="sub">The toolkit I use day to day.</p>
+      <div class="skills">
+        <div class="skill-group"><h3>Business analysis &amp; product</h3><div class="chips">
+          <span class="chip">Requirement elicitation</span><span class="chip">BRD / FRD / PRD</span><span class="chip">User stories &amp; acceptance criteria</span><span class="chip">AS-IS / TO-BE mapping</span><span class="chip">Gap analysis</span><span class="chip">Workflow design</span><span class="chip">Feature prioritisation</span><span class="chip">UAT</span>
+        </div></div>
+        <div class="skill-group"><h3>Delivery</h3><div class="chips">
+          <span class="chip">Agile / Scrum</span><span class="chip">Sprint planning</span><span class="chip">Backlog management</span><span class="chip">Risk &amp; dependency management</span><span class="chip">Stakeholder management</span><span class="chip">Release coordination</span>
+        </div></div>
+        <div class="skill-group"><h3>Tools</h3><div class="chips">
+          <span class="chip">Jira</span><span class="chip">Confluence</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">Lucidchart</span><span class="chip">draw.io</span><span class="chip">Figma</span><span class="chip">Microsoft Excel</span><span class="chip">Power BI</span><span class="chip">Google Analytics</span>
+        </div></div>
+        <div class="skill-group"><h3>Technical &amp; AI</h3><div class="chips">
+          <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">REST APIs</span><span class="chip">MongoDB</span><span class="chip">LLMs</span><span class="chip">NLP</span><span class="chip">Agentic AI workflows</span>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <h2>Education</h2>
+      <p class="sub">&nbsp;</p>
+      <div class="edu">
+        <div><b>MCA</b><span>Shri Ramswaroop College of Engineering and Management, Lucknow · 2022 – 2024</span></div>
+        <div><b>BCA</b><span>National Post Graduate College, Lucknow · 2019 – 2022</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Let's talk</h2>
+      <p class="sub" style="margin:0 auto 28px">I'm open to Business Analyst, Product and Project Manager roles. The best way to reach me is email or LinkedIn.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:anubhutisrivastava312@gmail.com">Email me</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">© 2026 Anubhuti Srivastava</div></footer>
+
+<script>
+(function(){
+  var root=document.documentElement, btn=document.getElementById('themeBtn');
+  try{var saved=localStorage.getItem('theme'); if(saved) root.setAttribute('data-theme',saved);}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark = root.getAttribute('data-theme')==='dark' ||
+      (!root.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches);
+    var next = dark ? 'light' : 'dark';
+    root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+})();
+</script>
+</body>
+</html>
