@@ -9,361 +9,419 @@
 <meta property="og:description" content="Associate Product Manager · Project Manager · Ex-Software Engineer">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://anubhutisrivastava312.github.io/profile.jpg">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%230f1115'/><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' font-family='Georgia' font-style='italic' font-size='34' fill='%23c8f169'>A</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%234f46e5'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-weight='700' font-size='26' fill='white'>AS</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root{
-  --bg:#fbfbf8; --surface:#ffffff; --ink:#0f1115; --muted:#5f6470; --line:#e8e8e1;
-  --lime:#c8f169; --lime-soft:#eefad2; --lime-ink:#2f4a00; --chip:#f2f2ec;
-  --hero-a:#e9fbb9; --hero-b:#fbfbf8;
-  --shadow:0 24px 60px -30px rgba(15,17,21,.35);
-  --max:1160px;
+  --bg:#ffffff; --bg-alt:#f7f8fb; --surface:#ffffff; --ink:#0f172a; --text:#334155; --muted:#64748b; --line:#e5e7eb;
+  --accent:#4f46e5; --accent-hover:#4338ca; --accent-soft:#eef2ff; --accent-ink:#3730a3; --on-accent:#ffffff;
+  --success:#16a34a;
+  --shadow-sm:0 1px 2px rgba(15,23,42,.06);
+  --shadow:0 10px 30px -12px rgba(15,23,42,.18);
+  --shadow-lg:0 24px 50px -20px rgba(15,23,42,.28);
+  --max:1180px; --radius:16px;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
-    --bg:#0e1013; --surface:#16191e; --ink:#f1f2ee; --muted:#a3a8b3; --line:#262a31;
-    --lime:#c8f169; --lime-soft:#26301a; --lime-ink:#d9f79a; --chip:#1d2026;
-    --hero-a:#1f2a12; --hero-b:#0e1013; --shadow:0 24px 60px -30px rgba(0,0,0,.8);
+    --bg:#0b1020; --bg-alt:#0f1529; --surface:#141b2f; --ink:#f1f5f9; --text:#cbd5e1; --muted:#94a3b8; --line:#232c44;
+    --accent:#818cf8; --accent-hover:#a5b4fc; --accent-soft:#1e2448; --accent-ink:#c7d2fe; --on-accent:#0b1020;
+    --success:#4ade80;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4); --shadow:0 10px 30px -12px rgba(0,0,0,.6); --shadow-lg:0 24px 50px -20px rgba(0,0,0,.7);
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0e1013; --surface:#16191e; --ink:#f1f2ee; --muted:#a3a8b3; --line:#262a31;
-  --lime:#c8f169; --lime-soft:#26301a; --lime-ink:#d9f79a; --chip:#1d2026;
-  --hero-a:#1f2a12; --hero-b:#0e1013; --shadow:0 24px 60px -30px rgba(0,0,0,.8);
+  --bg:#0b1020; --bg-alt:#0f1529; --surface:#141b2f; --ink:#f1f5f9; --text:#cbd5e1; --muted:#94a3b8; --line:#232c44;
+  --accent:#818cf8; --accent-hover:#a5b4fc; --accent-soft:#1e2448; --accent-ink:#c7d2fe; --on-accent:#0b1020;
+  --success:#4ade80;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.4); --shadow:0 10px 30px -12px rgba(0,0,0,.6); --shadow-lg:0 24px 50px -20px rgba(0,0,0,.7);
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Instrument Sans",system-ui,-apple-system,Segoe UI,Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit}
-.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
-.serif{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-weight:400}
-.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 14px;font-size:13.5px;font-weight:500}
-.dot{width:8px;height:8px;border-radius:50%;background:#7ccf00;box-shadow:0 0 0 4px rgba(124,207,0,.18)}
-.btn{display:inline-flex;align-items:center;gap:10px;border-radius:999px;padding:13px 22px;font-weight:600;font-size:15px;text-decoration:none;transition:transform .2s ease, background .2s ease}
-.btn:hover{transform:translateY(-2px)}
-.btn-dark{background:var(--ink);color:var(--bg)}
-.btn-line{border:1px solid var(--ink);color:var(--ink)}
-.btn .arr{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--lime);color:#0f1115;font-size:13px}
+h1,h2,h3,h4{color:var(--ink);margin:0;letter-spacing:-.02em}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.ico{width:18px;height:18px;flex:none}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;height:46px;padding:0 22px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:background .2s,border-color .2s,color .2s,box-shadow .2s,transform .2s}
+.btn:focus-visible,.icon-btn:focus-visible,.nav-links a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.btn-primary{background:var(--accent);color:var(--on-accent);box-shadow:0 8px 20px -8px color-mix(in srgb,var(--accent) 70%,transparent)}
+.btn-primary:hover{background:var(--accent-hover);transform:translateY(-1px)}
+.btn-outline{background:var(--surface);border-color:var(--line);color:var(--ink)}
+.btn-outline:hover{border-color:var(--accent);color:var(--accent)}
+.btn-sm{height:40px;padding:0 16px;font-size:14px}
 
 /* nav */
-.nav{position:fixed;inset:0 0 auto 0;z-index:20;padding:14px 0;transition:background .3s, border-color .3s, padding .3s;border-bottom:1px solid transparent}
-.nav.scrolled{background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom-color:var(--line);padding:8px 0}
-.nav .bar{max-width:var(--max);margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:26px;text-decoration:none;letter-spacing:-.2px}
-.menu{display:flex;gap:4px;background:color-mix(in srgb,var(--surface) 80%,transparent);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:999px;padding:5px}
-.menu a{font-size:14px;font-weight:500;text-decoration:none;padding:7px 14px;border-radius:999px;color:var(--muted)}
-.menu a:hover{background:var(--chip);color:var(--ink)}
-.nav-right{display:flex;gap:8px;align-items:center}
-.icon-btn{position:relative;width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;overflow:hidden;transition:background .25s,border-color .25s,transform .2s}
-.icon-btn:hover{background:var(--lime);border-color:transparent;color:#0f1115;transform:rotate(-12deg)}
-.icon-btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
-.icon-btn svg{position:absolute;width:20px;height:20px;transition:transform .45s cubic-bezier(.4,1.6,.5,1),opacity .3s}
-.icon-btn .sun{opacity:0;transform:rotate(-90deg) scale(.4)}
-.icon-btn .moon{opacity:1;transform:none}
-:root[data-theme="dark"] .icon-btn .sun{opacity:1;transform:none}
-:root[data-theme="dark"] .icon-btn .moon{opacity:0;transform:rotate(90deg) scale(.4)}
+.nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid transparent;transition:border-color .2s, box-shadow .2s}
+.nav.scrolled{border-bottom-color:var(--line);box-shadow:var(--shadow-sm)}
+.nav .bar{max-width:var(--max);margin:0 auto;padding:0 24px;height:68px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:700;color:var(--ink);font-size:17px;letter-spacing:-.01em}
+.brand .mono{width:34px;height:34px;border-radius:9px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;font-size:13px;font-weight:800;letter-spacing:.02em}
+.nav-links{display:flex;gap:4px}
+.nav-links a{position:relative;font-size:14.5px;font-weight:500;text-decoration:none;color:var(--muted);padding:8px 12px;border-radius:8px;transition:color .2s, background .2s}
+.nav-links a:hover{color:var(--ink);background:var(--bg-alt)}
+.nav-links a.active{color:var(--accent)}
+.nav-right{display:flex;align-items:center;gap:10px}
+.icon-btn{position:relative;width:40px;height:40px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;overflow:hidden;transition:border-color .2s,color .2s}
+.icon-btn:hover{border-color:var(--accent);color:var(--accent)}
+.icon-btn svg{position:absolute;width:19px;height:19px;transition:transform .4s ease,opacity .3s}
+#themeBtn .sun{opacity:0;transform:rotate(-90deg) scale(.5)}
+:root[data-theme="dark"] #themeBtn .sun{opacity:1;transform:none}
+:root[data-theme="dark"] #themeBtn .moon{opacity:0;transform:rotate(90deg) scale(.5)}
 @media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]) .icon-btn .sun{opacity:1;transform:none}
-  :root:not([data-theme="light"]) .icon-btn .moon{opacity:0;transform:rotate(90deg) scale(.4)}
+  :root:not([data-theme="light"]) #themeBtn .sun{opacity:1;transform:none}
+  :root:not([data-theme="light"]) #themeBtn .moon{opacity:0;transform:rotate(90deg) scale(.5)}
 }
-@media (max-width:860px){.menu{display:none}}
-
-/* hero - bento grid */
-.hero{padding:96px 0 40px;background:radial-gradient(1100px 520px at 30% 20%,var(--hero-a),var(--hero-b) 70%)}
-.bento-hero{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(130px,auto);gap:14px}
-.tile{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:22px;overflow:hidden;color:var(--ink);text-decoration:none;font:inherit;text-align:left;transition:transform .25s ease, box-shadow .25s ease, background .25s}
-a.tile:hover,button.tile:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
-.t-label{display:block;font-size:12.5px;font-weight:600;letter-spacing:.6px;color:var(--muted)}
-.tile b{display:block;font-size:22px;letter-spacing:-.4px;line-height:1.15;margin-top:8px;font-weight:600}
-.t-sub{display:block;font-size:13.5px;color:var(--muted);margin-top:6px}
-.t-arrow{position:absolute;right:16px;bottom:16px;width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:var(--chip);font-size:16px;transition:transform .25s, background .25s}
-a.tile:hover .t-arrow,button.tile:hover .t-arrow{transform:rotate(45deg);background:var(--lime);color:#0f1115}
-.t-intro{grid-column:span 8;grid-row:span 3;padding:34px;display:flex;flex-direction:column;gap:18px}
-.t-intro h1{margin:6px 0 0;line-height:.95;letter-spacing:-2px}
-.t-intro .l1{display:block;font-weight:600;font-size:clamp(40px,5.6vw,76px)}
-.t-intro .l2{display:block;font-size:clamp(38px,5.4vw,74px);letter-spacing:-1px;margin-top:4px}
-.t-lead{margin:0;color:var(--muted);font-size:17px;max-width:520px}
-.t-intro .pill{align-self:flex-start}
-.roles{display:flex;flex-direction:column;gap:8px}
-.roles span{font-size:14.5px;font-weight:600;display:flex;align-items:center;gap:10px}
-.roles i{font-style:normal;font-family:"Instrument Serif",serif;font-size:20px;color:var(--muted);width:26px}
-.t-links{margin-top:auto;display:flex;gap:18px;flex-wrap:wrap;font-size:13px;font-weight:600;letter-spacing:.8px;text-transform:uppercase}
-.t-links a{text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
-.t-links a:hover{border-color:var(--ink)}
-.t-photo{grid-column:span 4;grid-row:span 3;margin:0;padding:0;align-self:center;aspect-ratio:4/5;min-height:0}
-.t-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
-.t-photo figcaption{position:absolute;left:16px;bottom:16px;display:inline-flex;align-items:center;gap:8px;background:color-mix(in srgb,var(--surface) 85%,transparent);backdrop-filter:blur(10px);border-radius:999px;padding:7px 14px;font-size:13px;font-weight:600}
-.t-photo .badge{position:absolute;right:16px;top:16px;background:color-mix(in srgb,var(--surface) 88%,transparent);backdrop-filter:blur(10px);border-radius:16px;padding:10px 14px;font-size:12.5px;line-height:1.3}
-.t-photo .badge b{font-size:20px;margin:0}
-.t-hello{grid-column:span 4;background:var(--lime);border-color:transparent;color:#0f1115}
-.t-hello .t-label{color:#3a4a14}
-.t-hello .t-arrow{background:#0f1115;color:var(--lime)}
-.t-work{grid-column:span 4}
-.t-stack{grid-column:span 12}
-.stack-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
-.stack-row span{display:inline-flex;align-items:center;gap:8px;background:var(--chip);border-radius:12px;padding:8px 12px;font-size:13.5px;font-weight:600}
-.stack-row span::before{content:"";width:10px;height:10px;border-radius:3px;background:var(--c)}
-.t-stat{grid-column:span 4;background:var(--lime-soft);border-color:transparent}
-.t-stat .big{font-size:56px;line-height:1;letter-spacing:-2px}
-@media (max-width:1000px){
-  .t-intro{grid-column:span 12;grid-row:auto}
-  .t-photo{grid-column:span 12;grid-row:auto;max-width:340px;width:100%;justify-self:center}
-  .t-hello,.t-work,.t-stat{grid-column:span 4}
-  .t-stack{grid-column:span 12}
+#menuBtn{display:none}
+.mobile-menu{display:none}
+@media (max-width:900px){
+  .nav-links,.nav-right .btn{display:none}
+  #menuBtn{display:grid}
+  .mobile-menu{display:block;position:absolute;left:0;right:0;top:68px;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:var(--shadow);padding:10px 24px 20px;transform-origin:top;transform:scaleY(.96);opacity:0;pointer-events:none;transition:opacity .2s, transform .2s}
+  .nav.open .mobile-menu{opacity:1;transform:none;pointer-events:auto}
+  .mobile-menu a{display:block;padding:12px 4px;border-bottom:1px solid var(--line);text-decoration:none;font-weight:500;color:var(--ink)}
+  .mobile-menu .btn{width:100%;margin-top:16px;border-bottom:0}
 }
-@media (max-width:560px){.t-hello,.t-work,.t-stat{grid-column:span 12}.t-intro{padding:24px}}
 
-/* marquee */
-.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--surface);overflow:hidden}
-.strip .track{display:flex;gap:14px;padding:16px 0;width:max-content;animation:scroll 32s linear infinite}
-.strip .item{display:inline-flex;align-items:center;gap:10px;padding:8px 18px;border-radius:999px;background:var(--chip);font-weight:600;font-size:15px;white-space:nowrap}
-.strip .item em{font-style:normal;color:var(--muted);font-weight:500;font-size:13px}
-@keyframes scroll{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.strip .track{animation:none}}
+/* hero */
+.hero{position:relative;padding:72px 0 88px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(700px 380px at 85% 10%,var(--accent-soft),transparent 70%),radial-gradient(600px 320px at 0% 100%,color-mix(in srgb,var(--accent-soft) 60%,transparent),transparent 70%);pointer-events:none}
+.hero-grid{position:relative;display:grid;grid-template-columns:1.35fr 1fr;gap:56px;align-items:center}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 10px;border-radius:999px;background:var(--surface);border:1px solid var(--line);font-size:13.5px;font-weight:500;color:var(--text);box-shadow:var(--shadow-sm)}
+.badge .dot{width:8px;height:8px;border-radius:50%;background:var(--success);box-shadow:0 0 0 4px color-mix(in srgb,var(--success) 20%,transparent)}
+.hero h1{margin-top:22px;font-size:clamp(38px,5.2vw,60px);line-height:1.08;font-weight:800;letter-spacing:-.035em}
+.hero h1 .hl{color:var(--accent)}
+.roles{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-top:18px;font-weight:600;color:var(--ink);font-size:16.5px}
+.roles .sep{width:5px;height:5px;border-radius:50%;background:var(--muted);opacity:.6}
+.hero .lead{margin:18px 0 0;font-size:18px;color:var(--muted);max-width:560px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.socials{display:flex;align-items:center;gap:10px;margin-top:30px;font-size:14px;color:var(--muted)}
+.socials a{width:40px;height:40px;border-radius:10px;border:1px solid var(--line);display:grid;place-items:center;color:var(--muted);background:var(--surface);transition:color .2s,border-color .2s}
+.socials a:hover{color:var(--accent);border-color:var(--accent)}
+.socials .loc{display:inline-flex;align-items:center;gap:6px;margin-left:6px}
+.photo{position:relative;justify-self:end;width:100%;max-width:340px}
+.photo .frame{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:4/5;background:var(--bg-alt);box-shadow:var(--shadow-lg);border:6px solid var(--surface)}
+.photo .frame img{width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.photo::before{content:"";position:absolute;inset:18px -18px -18px 18px;border-radius:26px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 25%,transparent);z-index:-1}
+.photo .float{position:absolute;display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:10px 14px;box-shadow:var(--shadow);font-size:13px;color:var(--muted);line-height:1.3}
+.photo .float b{display:block;color:var(--ink);font-size:16px}
+.photo .float .fi{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent)}
+.photo .f1{left:-44px;bottom:48px}
+.photo .f2{right:-28px;top:28px}
+@media (max-width:900px){
+  .hero{padding:48px 0 64px}
+  .hero-grid{grid-template-columns:1fr;gap:48px}
+  .photo{justify-self:center;max-width:260px;order:-1}
+  .photo .f1{left:-20px}.photo .f2{right:-16px}
+}
+
+/* stats */
+.stats{position:relative;margin-top:-36px;z-index:2}
+.stats .grid{display:grid;grid-template-columns:repeat(4,1fr);background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+.stats .s{padding:26px 28px;border-left:1px solid var(--line)}
+.stats .s:first-child{border-left:0}
+.stats b{display:block;font-size:32px;font-weight:800;color:var(--ink);letter-spacing:-.03em;line-height:1.1}
+.stats span{font-size:14px;color:var(--muted)}
+@media (max-width:760px){.stats .grid{grid-template-columns:1fr 1fr}.stats .s:nth-child(3){border-left:0}.stats .s:nth-child(n+3){border-top:1px solid var(--line)}}
+
+/* companies */
+.companies{padding:44px 0 8px;text-align:center}
+.companies p{margin:0 0 16px;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.companies .list{display:flex;flex-wrap:wrap;justify-content:center;gap:12px 40px}
+.companies .co{display:flex;flex-direction:column;align-items:center}
+.companies .co strong{font-size:19px;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+.companies .co small{font-size:13px;color:var(--muted)}
 
 /* sections */
-section{padding:110px 0}
-.kicker{display:inline-flex;gap:8px;align-items:center;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.4px;color:var(--muted);margin-bottom:18px}
-.kicker::before{content:"";width:22px;height:1px;background:currentColor}
-h2{font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-1.4px;margin:0 0 18px;font-weight:600}
-h2 .serif{font-weight:400;letter-spacing:-.5px}
-.lede{color:var(--muted);font-size:18px;max-width:620px;margin:0}
+section{padding:96px 0}
+.alt{background:var(--bg-alt);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.sec-head{max-width:640px;margin:0 auto 52px;text-align:center}
+.sec-head.left{margin-left:0;text-align:left}
+.eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.sec-head h2{font-size:clamp(28px,3.6vw,40px);line-height:1.15;font-weight:800}
+.sec-head p{margin:14px 0 0;font-size:17px;color:var(--muted)}
 
 /* about */
-.about-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:60px;align-items:start}
-.about-text p{font-size:18px;margin:0 0 18px;color:var(--muted)}
-.about-text p b{color:var(--ink);font-weight:600}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.stat{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px}
-.stat b{display:block;font-size:44px;line-height:1;letter-spacing:-1.5px;font-weight:600}
-.stat span{display:block;margin-top:10px;color:var(--muted);font-size:14.5px}
-.stat.hl{background:var(--lime);border-color:transparent;color:#0f1115}
-.stat.hl span{color:#2f3a1a}
-.stat.wide{grid-column:span 2;display:flex;justify-content:space-between;align-items:center;gap:16px}
-.stat.wide span{margin:0}
-.stat .pill,.stat .pill .dot{display:inline-flex;margin:0;color:var(--ink)}
-.stat .pill .dot{display:inline-block}
-@media (max-width:900px){.about-grid{grid-template-columns:1fr;gap:36px}}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.about .text p{margin:0 0 16px;font-size:17px}
+.about .text p b{color:var(--ink)}
+.about .facts{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;font-size:15px}
+.about .facts div{display:flex;flex-direction:column}
+.about .facts small{color:var(--muted);font-size:13px}
+.about .facts strong{color:var(--ink);font-weight:600}
+.pillars{display:grid;gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;transition:border-color .2s, box-shadow .2s, transform .2s}
+.card:hover{border-color:color-mix(in srgb,var(--accent) 40%,var(--line));box-shadow:var(--shadow);transform:translateY(-2px)}
+.pillar{display:flex;gap:16px}
+.pillar .fi,.step .fi,.skill .fi{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);flex:none}
+.pillar h3{font-size:17px;margin-bottom:4px}
+.pillar p{margin:0;font-size:15px;color:var(--muted)}
+.pillar .num{font-size:12px;font-weight:700;color:var(--accent);letter-spacing:.06em}
+@media (max-width:900px){.about{grid-template-columns:1fr;gap:40px}}
 
 /* process */
-.process{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
-.step{position:relative;border:1px solid var(--line);border-radius:24px;padding:28px;background:var(--bg);min-height:250px;display:flex;flex-direction:column}
-.step .n{font-family:"Instrument Serif",serif;font-size:58px;line-height:1;color:var(--muted)}
-.step h3{font-size:24px;margin:auto 0 8px;letter-spacing:-.4px}
-.step p{margin:0;color:var(--muted);font-size:15.5px}
-.step:nth-child(2){transform:translateY(24px)}
-.step:nth-child(3){transform:translateY(48px)}
-.step .tag{position:absolute;top:24px;right:24px;font-size:12px;font-weight:600;background:var(--lime-soft);color:var(--lime-ink);border-radius:999px;padding:4px 10px}
-@media (max-width:900px){.steps{grid-template-columns:1fr}.step:nth-child(n){transform:none}.step{min-height:0}.step h3{margin-top:28px}}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:s}
+.step{position:relative;padding:28px}
+.step .no{position:absolute;top:22px;right:24px;font-size:40px;font-weight:800;color:var(--line);letter-spacing:-.04em;line-height:1}
+.step h3{font-size:19px;margin:18px 0 8px}
+.step p{margin:0;color:var(--muted);font-size:15px}
+.step .tag{display:inline-block;margin-top:16px;font-size:12px;font-weight:600;color:var(--accent-ink);background:var(--accent-soft);border-radius:999px;padding:3px 10px}
+@media (max-width:900px){.steps{grid-template-columns:1fr}}
 
 /* work */
-.work-head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap}
-.works{display:grid;gap:22px;margin-top:48px}
-.work{display:grid;grid-template-columns:1.05fr 1fr;gap:0;border:1px solid var(--line);border-radius:28px;overflow:hidden;background:var(--surface)}
+.works{display:grid;gap:28px}
+.work{display:grid;grid-template-columns:1fr 1fr;background:var(--surface);border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:box-shadow .25s,border-color .25s}
+.work:hover{box-shadow:var(--shadow-lg);border-color:color-mix(in srgb,var(--accent) 30%,var(--line))}
 .work:nth-child(even) .visual{order:2}
-.visual{position:relative;min-height:360px;padding:34px;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.v1{background:linear-gradient(135deg,#d8f78f,#a9e04a)}
-.v2{background:linear-gradient(135deg,#1c2330,#0f1115)}
-.v3{background:linear-gradient(135deg,#f3efe6,#e3dccb)}
+.visual{min-height:380px;padding:36px;display:flex;align-items:center;justify-content:center}
+.v1{background:linear-gradient(135deg,#eef2ff,#c7d2fe)}
+.v2{background:linear-gradient(135deg,#1e1b4b,#0f172a)}
+.v3{background:linear-gradient(135deg,#ecfdf5,#bbf7d0)}
+:root[data-theme="dark"] .v1{background:linear-gradient(135deg,#1e2448,#312e81)}
+:root[data-theme="dark"] .v3{background:linear-gradient(135deg,#0f2a22,#14532d)}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .v1{background:linear-gradient(135deg,#1e2448,#312e81)}
+  :root:not([data-theme="light"]) .v3{background:linear-gradient(135deg,#0f2a22,#14532d)}
+}
 .info{padding:40px;display:flex;flex-direction:column}
-.info .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-.info .meta span{font-size:12.5px;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:4px 11px;color:var(--muted)}
-.info h3{font-size:30px;line-height:1.1;letter-spacing:-.8px;margin:0 0 16px}
-.info dl{margin:0;display:grid;gap:12px}
-.info dt{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted)}
-.info dd{margin:2px 0 0;font-size:15.5px}
-.info .stack{margin-top:auto;padding-top:22px;display:flex;flex-wrap:wrap;gap:6px}
-.chip{background:var(--chip);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:500}
-@media (max-width:900px){.work{grid-template-columns:1fr}.work:nth-child(even) .visual{order:0}.visual{min-height:280px}.info{padding:28px}}
+.info .meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.tagp{font-size:12.5px;font-weight:600;border-radius:999px;padding:4px 11px;background:var(--bg-alt);color:var(--muted);border:1px solid var(--line)}
+.tagp.main{background:var(--accent-soft);color:var(--accent-ink);border-color:transparent}
+.info h3{font-size:24px;line-height:1.25;margin-bottom:18px}
+.info dl{margin:0;display:grid;gap:14px}
+.info dt{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--ink)}
+.info dd{margin:3px 0 0;font-size:15px;color:var(--muted)}
+.info .outcome{margin-top:20px;display:flex;gap:10px;align-items:flex-start;background:var(--accent-soft);color:var(--accent-ink);border-radius:12px;padding:12px 14px;font-size:14.5px;font-weight:500}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.info .chips{margin-top:auto;padding-top:22px}
+.chip{font-size:13px;font-weight:500;border:1px solid var(--line);border-radius:8px;padding:5px 10px;color:var(--text);background:var(--surface)}
+@media (max-width:900px){.work{grid-template-columns:1fr}.work:nth-child(even) .visual{order:0}.visual{min-height:280px;padding:28px}.info{padding:28px}}
 
-/* mock UIs inside visuals */
-.mock{width:100%;max-width:420px;background:#fff;color:#0f1115;border-radius:18px;box-shadow:0 30px 60px -25px rgba(0,0,0,.45);padding:18px;font-size:12.5px}
+/* mock UIs */
+.mock{width:100%;max-width:420px;background:#fff;color:#0f172a;border-radius:16px;box-shadow:0 30px 60px -25px rgba(15,23,42,.45);padding:18px;font-size:12.5px}
 .mock .mh{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;font-weight:700;font-size:13.5px}
-.mock .mh small{font-weight:600;color:#6b7280;font-size:11px}
+.mock .mh small{font-weight:600;color:#64748b;font-size:11px}
 .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px}
-.flow div{border-radius:10px;padding:9px 6px;text-align:center;font-weight:600;font-size:11px;background:#f1f5e6}
-.flow div.on{background:#0f1115;color:#c8f169}
-.row{display:flex;justify-content:space-between;align-items:center;padding:9px 10px;border:1px solid #eceee6;border-radius:10px;margin-top:6px}
+.flow div{border-radius:8px;padding:8px 6px;text-align:center;font-weight:600;font-size:11px;background:#f1f5f9}
+.flow div.on{background:#4f46e5;color:#fff}
+.row{display:flex;justify-content:space-between;align-items:center;padding:9px 10px;border:1px solid #e5e7eb;border-radius:9px;margin-top:6px}
 .row .st{font-size:10.5px;font-weight:700;border-radius:999px;padding:2px 8px}
-.ok{background:#e7f8d2;color:#2f5b00}.wait{background:#fff2cf;color:#7a5200}.rev{background:#e3ecff;color:#1f3f8f}
-.mock.dark{background:#171c26;color:#eef1f6}
-.mock.dark .mh small{color:#9aa4b5}
-.bars{display:flex;align-items:end;gap:8px;height:110px;margin:10px 0 14px;padding:0 4px;border-bottom:1px solid #2a3140}
-.bars i{flex:1;border-radius:6px 6px 0 0;background:#2c3646}
-.bars i.on{background:#c8f169}
+.ok{background:#dcfce7;color:#166534}.wait{background:#fef3c7;color:#92400e}.rev{background:#e0e7ff;color:#3730a3}
+.mock.dark{background:#111827;color:#f1f5f9}
+.mock.dark .mh small{color:#94a3b8}
+.bars{display:flex;align-items:end;gap:8px;height:110px;margin:10px 0 14px;padding:0 4px;border-bottom:1px solid #1f2937}
+.bars i{flex:1;border-radius:5px 5px 0 0;background:#334155}
+.bars i.on{background:#818cf8}
 .pred{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.pred div{background:#212838;border-radius:12px;padding:10px}
-.pred b{display:block;font-size:20px;color:#c8f169}
+.pred div{background:#1f2937;border-radius:10px;padding:10px}
+.pred b{display:block;font-size:20px;color:#a5b4fc}
 .chat{display:flex;flex-direction:column;gap:8px}
 .bub{max-width:78%;padding:9px 12px;border-radius:14px;font-size:12px;line-height:1.4}
-.bub.in{background:#f1efe9;align-self:flex-start;border-bottom-left-radius:4px}
+.bub.in{background:#f1f5f9;align-self:flex-start;border-bottom-left-radius:4px}
 .bub.out{background:#d9fdd3;align-self:flex-end;border-bottom-right-radius:4px}
-.code{margin-top:10px;background:#0f1115;color:#c8f169;border-radius:10px;padding:10px 12px;font:11.5px/1.5 ui-monospace,Consolas,monospace}
-.code span{color:#9aa4b5}
+.code{margin-top:10px;background:#0f172a;color:#a5b4fc;border-radius:9px;padding:10px 12px;font:11.5px/1.5 ui-monospace,Consolas,monospace}
+.code span{color:#94a3b8}
 
-/* experience */
-.exp{margin-top:44px;border-top:1px solid var(--line)}
-.job{display:grid;grid-template-columns:200px 1fr 1.2fr;gap:28px;padding:30px 0;border-bottom:1px solid var(--line);transition:background .25s}
-.job:hover{background:linear-gradient(90deg,transparent,var(--lime-soft),transparent)}
-.job .when{font-size:14px;color:var(--muted);font-weight:500;padding-top:6px}
-.job h3{margin:0;font-size:23px;letter-spacing:-.4px;line-height:1.2}
-.job .org{margin-top:6px;font-family:"Instrument Serif",serif;font-style:italic;font-size:20px;color:var(--muted)}
-.job ul{margin:0;padding-left:18px;color:var(--muted);font-size:15.5px}
-.job li{margin:4px 0}
-.job .prod{font-size:13.5px;color:var(--muted);margin-top:8px}
-@media (max-width:900px){.job{grid-template-columns:1fr;gap:10px}}
+/* experience timeline */
+.timeline{position:relative;max-width:900px;margin:0 auto}
+.timeline::before{content:"";position:absolute;left:11px;top:8px;bottom:8px;width:2px;background:var(--line)}
+.job{position:relative;padding-left:48px;margin-bottom:22px}
+.job:last-child{margin-bottom:0}
+.job::before{content:"";position:absolute;left:4px;top:30px;width:12px;height:12px;border-radius:50%;background:var(--surface);border:3px solid var(--accent);box-shadow:0 0 0 4px var(--bg)}
+.job .card{padding:26px 28px}
+.job .top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-start}
+.job h3{font-size:19px}
+.job .org{margin-top:2px;font-weight:600;color:var(--accent)}
+.job .prod{font-size:14px;color:var(--muted);margin-top:2px}
+.job .when{font-size:13px;font-weight:600;color:var(--muted);background:var(--bg-alt);border:1px solid var(--line);border-radius:999px;padding:4px 12px;white-space:nowrap}
+.job .when.now{color:var(--accent-ink);background:var(--accent-soft);border-color:transparent}
+.job ul{margin:14px 0 0;padding-left:18px;font-size:15px;color:var(--text)}
+.job li{margin:5px 0}
+.job li::marker{color:var(--accent)}
 
-/* skills bento */
-.bento{display:grid;grid-template-columns:repeat(6,1fr);gap:16px;margin-top:44px}
-.cell{border:1px solid var(--line);border-radius:24px;padding:26px;background:var(--surface)}
-.cell h3{margin:0 0 14px;font-size:19px;letter-spacing:-.2px}
-.cell .chips{display:flex;flex-wrap:wrap;gap:8px}
-.c1{grid-column:span 4}.c2{grid-column:span 2;background:var(--ink);color:var(--bg);border-color:transparent}
-.c2 .chip{background:rgba(255,255,255,.1);color:inherit}
-:root[data-theme="dark"] .c2 .chip{background:rgba(0,0,0,.08)}
-.c3{grid-column:span 3}.c4{grid-column:span 3}
-.c5{grid-column:span 6;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;background:var(--lime-soft);border-color:transparent}
-.c5 b{font-size:20px}
-.edu{display:flex;gap:14px;flex-wrap:wrap}
-.edu div{background:var(--surface);border-radius:16px;padding:12px 16px;font-size:14px}
-.edu strong{display:block;font-size:16px}
-@media (max-width:900px){.bento{grid-template-columns:1fr}.cell{grid-column:auto!important}}
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.skill{padding:26px}
+.skill .hd{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.skill h3{font-size:18px}
+.skill .hd small{display:block;color:var(--muted);font-size:13.5px}
+.edu{margin-top:20px;display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.edu .card{display:flex;gap:16px;align-items:flex-start}
+.edu .fi{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);flex:none}
+.edu h3{font-size:17px}
+.edu p{margin:2px 0 0;font-size:14.5px;color:var(--muted)}
+@media (max-width:900px){.skills,.edu{grid-template-columns:1fr}}
 
 /* contact */
-.contact{padding:120px 0 90px;text-align:center;background:radial-gradient(900px 420px at 50% 100%,var(--hero-a),var(--bg) 70%)}
-.contact h2{font-size:clamp(44px,8vw,110px);letter-spacing:-3px;line-height:.95}
-.contact .lede{margin:0 auto 34px}
-.contact .ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
-footer{border-top:1px solid var(--line);padding:26px 0;font-size:13.5px;color:var(--muted)}
-footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.contact-box{position:relative;overflow:hidden;border-radius:24px;padding:56px;background:linear-gradient(135deg,#4f46e5,#6d28d9);color:#e0e7ff;display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.contact-box::after{content:"";position:absolute;right:-120px;top:-120px;width:360px;height:360px;border-radius:50%;background:rgba(255,255,255,.08)}
+.contact-box h2{color:#fff;font-size:clamp(28px,3.6vw,40px);line-height:1.15;font-weight:800}
+.contact-box p{margin:14px 0 0;font-size:17px;color:#c7d2fe;max-width:480px}
+.contact-box .ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.contact-box .btn-white{background:#fff;color:#3730a3}
+.contact-box .btn-white:hover{background:#eef2ff;transform:translateY(-1px)}
+.contact-box .btn-ghost{border-color:rgba(255,255,255,.4);color:#fff}
+.contact-box .btn-ghost:hover{background:rgba(255,255,255,.1)}
+.clist{position:relative;z-index:1;display:grid;gap:12px}
+.clist a,.clist div{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);text-decoration:none;color:#fff;transition:background .2s}
+.clist a:hover{background:rgba(255,255,255,.18)}
+.clist .fi{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;background:rgba(255,255,255,.16);flex:none}
+.clist small{display:block;font-size:12px;color:#c7d2fe}
+.clist strong{font-size:14.5px;font-weight:600;word-break:break-all}
+@media (max-width:900px){.contact-box{grid-template-columns:1fr;padding:36px 26px}}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:36px 0;font-size:14px;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+footer nav{display:flex;gap:20px;flex-wrap:wrap}
+footer nav a{text-decoration:none}
+footer nav a:hover{color:var(--accent)}
 
 /* reveal */
-.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease, transform .6s ease}
 .reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 </style>
 </head>
 <body>
 
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zm6.5 0h3.8v1.5h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1v5.46h-4v-4.84c0-1.16-.02-2.64-1.6-2.64-1.62 0-1.86 1.26-1.86 2.56v4.92h-4z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></g></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.1-7-11.5a7 7 0 0 1 14 0C19 14.9 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5" fill="currentColor"/></g></symbol>
+    <symbol id="i-kanban" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 4v16M15 4v16M5.5 8h1.5M11.5 8h1M11.5 11h1M17 8h1.5"/></g></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="m8 8-4 4 4 4m8-8 4 4-4 4M13.5 5l-3 14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.2-4.2"/></g></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></g></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.3-2 5-2 5s3.7-.5 5-2c.7-.8.7-2.1-.1-2.9-.8-.8-2.1-.8-2.9-.1z"/><path d="M12 15 9 12a17 17 0 0 1 9-9c1.5 0 3 1.5 3 3a17 17 0 0 1-9 9z"/><path d="M9 12H5l2-4h4M12 15v4l4-2v-4"/></g></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></g></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5M22 9v6"/></g></symbol>
+    <symbol id="i-trend" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" d="m3 17 6-6 4 4 8-8m-5 0h5v5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+  </defs>
+</svg>
+
 <header class="nav" id="nav">
   <div class="bar">
-    <a class="logo" href="#top">Anubhuti Srivastava</a>
-    <nav class="menu" aria-label="Main">
-      <a href="#about">About</a><a href="#process">Process</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+    <a class="brand" href="#top" aria-label="Anubhuti Srivastava, back to top"><span class="mono">AS</span>Anubhuti Srivastava</a>
+    <nav class="nav-links" aria-label="Main">
+      <a href="#about">About</a><a href="#process">Process</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
     </nav>
     <div class="nav-right">
-      <button class="icon-btn" id="themeBtn" aria-label="Switch between light and dark theme" title="Switch theme">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch between light and dark theme" title="Switch theme">
         <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 1 1 9.8 3.5a6.8 6.8 0 0 0 10.7 10.7z"/></svg>
         <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
       </button>
-      <a class="btn btn-dark" href="#contact" style="padding:10px 18px">Let's talk</a>
+      <a class="btn btn-primary btn-sm" href="#contact">Get in touch</a>
+      <button class="icon-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
     </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a><a href="#process">Process</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+    <a class="btn btn-primary" href="#contact">Get in touch</a>
   </div>
 </header>
 
 <main id="top">
   <!-- HERO -->
-  <div class="hero">
+  <section class="hero" aria-label="Introduction">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="badge"><span class="dot"></span>Open to Associate Product Manager &amp; Project Manager roles</span>
+        <h1>Hi, I'm Anubhuti.<br>I build products that <span class="hl">ship.</span></h1>
+        <div class="roles"><span>Associate Product Manager</span><span class="sep"></span><span>Project Manager</span><span class="sep"></span><span>Ex-Software Engineer</span></div>
+        <p class="lead">I turn user and business problems into clear product requirements, run delivery until features are released, and speak engineering fluently.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="#work">View my work <svg class="ico"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-outline" href="#contact">Contact me</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ico"><use href="#i-linkedin"/></svg></a>
+          <a href="mailto:anubhutisrivastava312@gmail.com" aria-label="Email"><svg class="ico"><use href="#i-mail"/></svg></a>
+          <span class="loc"><svg class="ico"><use href="#i-pin"/></svg>Lucknow, India</span>
+        </div>
+      </div>
+      <div class="photo">
+        <div class="frame"><img src="profile.jpg" alt="Portrait of Anubhuti Srivastava" width="800" height="1000"></div>
+        <div class="float f1"><span class="fi"><svg class="ico"><use href="#i-trend"/></svg></span><span><b>~25%</b>fewer delivery delays</span></div>
+        <div class="float f2"><span class="fi"><svg class="ico"><use href="#i-rocket"/></svg></span><span><b>2 products</b>shipped</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats">
     <div class="wrap">
-      <div class="bento-hero">
-        <!-- intro -->
-        <div class="tile t-intro">
-          <span class="pill"><span class="dot"></span>Available for new opportunities</span>
-          <h1><span class="l1">Hi, I'm Anubhuti</span><span class="l2 serif">Associate Product Manager</span></h1>
-          <p class="t-lead">I turn user and business problems into clear product requirements, run delivery until features are released, and speak engineering fluently.</p>
-          <div class="roles">
-            <span><i>01</i>Associate Product Manager</span>
-            <span><i>02</i>Project Manager</span>
-            <span><i>03</i>Ex-Software Engineer</span>
-          </div>
-          <div class="t-links">
-            <a href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener">LinkedIn ↗</a>
-            <a href="mailto:anubhutisrivastava312@gmail.com">Email ↗</a>
-            <a href="#experience">Experience ↓</a>
-          </div>
-        </div>
-        <!-- photo (right side) -->
-        <figure class="tile t-photo">
-          <img src="profile.jpg" alt="Portrait of Anubhuti Srivastava" width="800" height="1000">
-          <figcaption><span class="dot"></span>Lucknow, India</figcaption>
-          <div class="badge"><b>~25%</b>fewer delivery delays</div>
-        </figure>
-        <!-- small tiles -->
-        <a class="tile t-hello" href="#contact">
-          <span class="t-label">Say hello 👋</span>
-          <b>Let's work together</b>
-          <span class="t-arrow">↗</span>
-        </a>
-        <a class="tile t-work" href="#work">
-          <span class="t-label">Works</span>
-          <b>View my work</b>
-          <span class="t-arrow">↗</span>
-        </a>
-        <div class="tile t-stat">
-          <span class="t-label">Shipped</span>
-          <b class="big">2</b>
-          <span class="t-sub">products from planning to release</span>
-        </div>
-        <div class="tile t-stack">
-          <span class="t-label">Tools I use</span>
-          <b>My daily stack</b>
-          <div class="stack-row" aria-label="Jira, Confluence, Figma, Miro, Power BI, Excel, Python, SQL">
-            <span style="--c:#2684ff">Jira</span><span style="--c:#1868db">Confluence</span><span style="--c:#a259ff">Figma</span><span style="--c:#e6b800">Miro</span><span style="--c:#f2c811">Power BI</span><span style="--c:#21a366">Excel</span><span style="--c:#3776ab">Python</span><span style="--c:#e38c00">SQL</span>
-          </div>
-        </div>
+      <div class="grid reveal">
+        <div class="s"><b>~2 yrs</b><span>Product, delivery &amp; engineering</span></div>
+        <div class="s"><b>2</b><span>Products taken to release</span></div>
+        <div class="s"><b>~25%</b><span>Fewer delivery delays</span></div>
+        <div class="s"><b>3</b><span>Domains: logistics, edtech, SaaS</span></div>
       </div>
     </div>
   </div>
 
-  <!-- MARQUEE -->
-  <div class="strip" aria-label="Where I've worked">
-    <div class="track">
-      <span class="item">Thrymr Software <em>· Logistics platform</em></span>
-      <span class="item">Careers360 <em>· Career guidance</em></span>
-      <span class="item">MakunaiGlobal <em>· Customer engagement</em></span>
-      <span class="item">Logistics</span><span class="item">EdTech</span><span class="item">B2B SaaS</span><span class="item">AI-powered products</span>
-      <span class="item">Thrymr Software <em>· Logistics platform</em></span>
-      <span class="item">Careers360 <em>· Career guidance</em></span>
-      <span class="item">MakunaiGlobal <em>· Customer engagement</em></span>
-      <span class="item">Logistics</span><span class="item">EdTech</span><span class="item">B2B SaaS</span><span class="item">AI-powered products</span>
+  <!-- COMPANIES -->
+  <div class="companies">
+    <div class="wrap reveal">
+      <p>Experience at</p>
+      <div class="list">
+        <div class="co"><strong>Thrymr Software</strong><small>Logistics platform</small></div>
+        <div class="co"><strong>Careers360</strong><small>Career guidance</small></div>
+        <div class="co"><strong>MakunaiGlobal</strong><small>Customer engagement</small></div>
+      </div>
     </div>
   </div>
 
   <!-- ABOUT -->
   <section id="about">
-    <div class="wrap about-grid">
-      <div class="about-text reveal">
-        <span class="kicker">About me</span>
-        <h2>Product thinking, <span class="serif">backed by</span> delivery and code.</h2>
-        <p><b>Product first.</b> As an Associate Product Manager on an end-to-end logistics platform, I find where users' workflows break and turn that into PRDs, user stories and acceptance criteria. I then work with design, engineering and QA until the feature is released.</p>
-        <p><b>Delivery that lands.</b> As a Technical Program Manager at Careers360, I took 2 products from planning to release with 2 cross-functional teams, and caught risks early enough to cut delays by about 25%.</p>
-        <p><b>Engineering roots.</b> I started as a software engineer building REST APIs and WhatsApp integrations in Python and FastAPI. That's why developers trust my requirements and my timelines.</p>
+    <div class="wrap about">
+      <div class="reveal">
+        <div class="sec-head left" style="margin-bottom:24px">
+          <span class="eyebrow">About me</span>
+          <h2>Product thinking, backed by delivery and code</h2>
+        </div>
+        <div class="text">
+          <p>I'm an <b>Associate Product Manager</b> on an end-to-end logistics platform. I find where users' workflows break and turn that into PRDs, user stories and acceptance criteria, then work with design, engineering and QA until the feature is released.</p>
+          <p>Before that, as a <b>Technical Program Manager</b> at Careers360, I took 2 products from planning to release with 2 cross-functional teams, and caught risks early enough to cut delays by about 25%.</p>
+          <p>I started as a <b>software engineer</b> building REST APIs and WhatsApp integrations in Python and FastAPI. That's why developers trust my requirements and my timelines.</p>
+        </div>
+        <div class="facts">
+          <div><small>Location</small><strong>Lucknow, India</strong></div>
+          <div><small>Looking for</small><strong>APM &amp; PM roles</strong></div>
+          <div><small>Domains</small><strong>Logistics, EdTech, B2B SaaS</strong></div>
+          <div><small>Education</small><strong>MCA, BCA</strong></div>
+        </div>
       </div>
-      <div class="stats reveal">
-        <div class="stat hl"><b>~2 yrs</b><span>across product, project delivery and engineering</span></div>
-        <div class="stat"><b>~25%</b><span>fewer delivery delays through early risk tracking</span></div>
-        <div class="stat"><b>2</b><span>products taken from planning to release</span></div>
-        <div class="stat"><b>3</b><span>domains: logistics, edtech and SaaS</span></div>
-        <div class="stat wide"><span>Based in <b style="display:inline;font-size:inherit;letter-spacing:0">Lucknow, India</b></span><span class="pill"><span class="dot"></span>Open to APM &amp; PM roles</span></div>
+      <div class="pillars">
+        <div class="card pillar reveal"><span class="fi"><svg class="ico"><use href="#i-target"/></svg></span><div><span class="num">01</span><h3>Associate Product Manager</h3><p>Problem discovery, PRDs, user stories, workflow design and feature prioritisation for a logistics platform.</p></div></div>
+        <div class="card pillar reveal"><span class="fi"><svg class="ico"><use href="#i-kanban"/></svg></span><div><span class="num">02</span><h3>Project Manager</h3><p>Agile delivery, sprint planning, risk and dependency management, and stakeholder updates through to release.</p></div></div>
+        <div class="card pillar reveal"><span class="fi"><svg class="ico"><use href="#i-code"/></svg></span><div><span class="num">03</span><h3>Ex-Software Engineer</h3><p>REST APIs in Python and FastAPI, MongoDB and technical specs, so I understand trade-offs and feasibility.</p></div></div>
       </div>
     </div>
   </section>
 
   <!-- PROCESS -->
-  <section id="process" class="process">
+  <section id="process" class="alt">
     <div class="wrap">
-      <div class="reveal">
-        <span class="kicker">How I work</span>
-        <h2>From a fuzzy problem <span class="serif">to a shipped feature</span></h2>
-        <p class="lede">The same three steps, whether it's a logistics workflow or a student-facing predictor.</p>
+      <div class="sec-head reveal">
+        <span class="eyebrow">How I work</span>
+        <h2>From a fuzzy problem to a shipped feature</h2>
+        <p>The same three steps, whether it's a logistics workflow or a student-facing predictor.</p>
       </div>
       <div class="steps">
-        <div class="step reveal"><span class="tag">Product</span><span class="n">01</span><h3>Discover</h3><p>Talk to users and stakeholders, map AS-IS and TO-BE workflows, and find the real problem behind the request.</p></div>
-        <div class="step reveal"><span class="tag">Product</span><span class="n">02</span><h3>Define</h3><p>Write PRDs, user stories and acceptance criteria, with business rules, validations and edge cases covered before a line of code.</p></div>
-        <div class="step reveal"><span class="tag">Project</span><span class="n">03</span><h3>Deliver</h3><p>Run sprints, track dependencies and risks in Jira, keep stakeholders updated, and see the feature through UAT and release.</p></div>
+        <div class="card step reveal"><span class="no">01</span><span class="fi"><svg class="ico"><use href="#i-search"/></svg></span><h3>Discover</h3><p>Talk to users and stakeholders, map AS-IS and TO-BE workflows, and find the real problem behind the request.</p><span class="tag">Product</span></div>
+        <div class="card step reveal"><span class="no">02</span><span class="fi"><svg class="ico"><use href="#i-doc"/></svg></span><h3>Define</h3><p>Write PRDs, user stories and acceptance criteria, with business rules, validations and edge cases covered before a line of code.</p><span class="tag">Product</span></div>
+        <div class="card step reveal"><span class="no">03</span><span class="fi"><svg class="ico"><use href="#i-rocket"/></svg></span><h3>Deliver</h3><p>Run sprints, track dependencies and risks in Jira, keep stakeholders updated, and see the feature through UAT and release.</p><span class="tag">Project</span></div>
       </div>
     </div>
   </section>
@@ -371,12 +429,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   <!-- WORK -->
   <section id="work">
     <div class="wrap">
-      <div class="work-head reveal">
-        <div>
-          <span class="kicker">Selected work</span>
-          <h2>Three projects, <span class="serif">three hats</span></h2>
-        </div>
-        <p class="lede" style="max-width:380px">One from each part of my career: product management, project management and software engineering.</p>
+      <div class="sec-head reveal">
+        <span class="eyebrow">Selected work</span>
+        <h2>Three projects, three roles</h2>
+        <p>One from each part of my career: product management, project management and software engineering.</p>
       </div>
 
       <div class="works">
@@ -392,14 +448,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
             </div>
           </div>
           <div class="info">
-            <div class="meta"><span>Product management</span><span>Logistics</span><span>Thrymr Software</span></div>
+            <div class="meta"><span class="tagp main">Product management</span><span class="tagp">Logistics</span><span class="tagp">Thrymr Software</span></div>
             <h3>One configurable document workflow for a logistics platform</h3>
             <dl>
               <div><dt>Problem</dt><dd>Supporting documents had to move through many document types and business roles, and a separate flow for each one wouldn't scale.</dd></div>
               <div><dt>What I did</dt><dd>Owned the feature from discovery to UAT. I chose one configurable workflow over one-off flows and wrote the PRD and user stories, covering business rules, validations and edge cases.</dd></div>
-              <div><dt>Outcome</dt><dd>Document handling became consistent and scalable across the product.</dd></div>
             </dl>
-            <div class="stack"><span class="chip">PRD</span><span class="chip">User stories</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">UAT</span></div>
+            <div class="outcome"><svg class="ico"><use href="#i-check"/></svg>Document handling became consistent and scalable across the product.</div>
+            <div class="chips"><span class="chip">PRD</span><span class="chip">User stories</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">UAT</span></div>
           </div>
         </article>
 
@@ -412,14 +468,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
             </div>
           </div>
           <div class="info">
-            <div class="meta"><span>Project management</span><span>EdTech</span><span>Careers360</span></div>
+            <div class="meta"><span class="tagp main">Project management</span><span class="tagp">EdTech</span><span class="tagp">Careers360</span></div>
             <h3>Rank &amp; college predictors, delivered on time</h3>
             <dl>
               <div><dt>Problem</dt><dd>Students choosing colleges after Class 12 needed personalised, data-driven guidance, on tight deadlines.</dd></div>
               <div><dt>What I did</dt><dd>Ran program management for 2 products with 2 cross-functional teams: sprint planning, stand-ups, reviews, dependency tracking and stakeholder updates.</dd></div>
-              <div><dt>Outcome</dt><dd>Real-time rank and college predictors were released on time, and delivery delays fell by about 25%.</dd></div>
             </dl>
-            <div class="stack"><span class="chip">Scrum</span><span class="chip">Jira</span><span class="chip">Risk management</span><span class="chip">Stakeholders</span></div>
+            <div class="outcome"><svg class="ico"><use href="#i-check"/></svg>Real-time rank and college predictors were released on time, and delivery delays fell by about 25%.</div>
+            <div class="chips"><span class="chip">Scrum</span><span class="chip">Jira</span><span class="chip">Risk management</span><span class="chip">Stakeholders</span></div>
           </div>
         </article>
 
@@ -436,14 +492,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
             </div>
           </div>
           <div class="info">
-            <div class="meta"><span>Software engineering</span><span>SaaS</span><span>MakunaiGlobal</span></div>
+            <div class="meta"><span class="tagp main">Software engineering</span><span class="tagp">SaaS</span><span class="tagp">MakunaiGlobal</span></div>
             <h3>WhatsApp Business integration for an engagement platform</h3>
             <dl>
               <div><dt>Problem</dt><dd>Businesses on a multi-channel customer engagement platform needed automated, real-time conversations with customers on WhatsApp.</dd></div>
               <div><dt>What I did</dt><dd>Built REST APIs in FastAPI on top of Meta's WhatsApp Business APIs, handling authentication, validation, request transformation and errors, and wrote the technical specs.</dd></div>
-              <div><dt>Outcome</dt><dd>Automated customer engagement workflows, alongside email and SMS.</dd></div>
             </dl>
-            <div class="stack"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">MongoDB</span><span class="chip">REST APIs</span></div>
+            <div class="outcome"><svg class="ico"><use href="#i-check"/></svg>Automated customer engagement workflows, alongside email and SMS.</div>
+            <div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">MongoDB</span><span class="chip">REST APIs</span></div>
           </div>
         </article>
       </div>
@@ -451,90 +507,116 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
   </section>
 
   <!-- EXPERIENCE -->
-  <section id="experience" style="padding-top:20px">
+  <section id="experience" class="alt">
     <div class="wrap">
-      <div class="reveal">
-        <span class="kicker">Experience</span>
-        <h2>Where I've <span class="serif">worked</span></h2>
+      <div class="sec-head reveal">
+        <span class="eyebrow">Experience</span>
+        <h2>Where I've worked</h2>
       </div>
-      <div class="exp">
+      <div class="timeline">
         <div class="job reveal">
-          <div class="when">Jun 2026 – Present</div>
-          <div><h3>Associate Product Manager / Business Analyst</h3><div class="org">Thrymr Software</div><div class="prod">End-to-end logistics management platform</div></div>
-          <ul>
-            <li>Own the configurable supporting-document workflow from discovery to UAT.</li>
-            <li>Turn user pain points in logistics operations into features, PRDs, user stories and acceptance criteria.</li>
-            <li>Design workflows in Miro and Visio and ship them with engineering and QA across Agile sprints.</li>
-          </ul>
+          <div class="card">
+            <div class="top">
+              <div><h3>Associate Product Manager / Business Analyst</h3><div class="org">Thrymr Software</div><div class="prod">End-to-end logistics management platform</div></div>
+              <span class="when now">Jun 2026 – Present</span>
+            </div>
+            <ul>
+              <li>Own the configurable supporting-document workflow from discovery to UAT.</li>
+              <li>Turn user pain points in logistics operations into features, PRDs, user stories and acceptance criteria.</li>
+              <li>Design workflows in Miro and Visio and ship them with engineering and QA across Agile sprints.</li>
+            </ul>
+          </div>
         </div>
         <div class="job reveal">
-          <div class="when">Mar 2026 – Jun 2026</div>
-          <div><h3>Technical Program Manager</h3><div class="org">Careers360</div><div class="prod">Career guidance platform for students</div></div>
-          <ul>
-            <li>Led end-to-end program management for 2 products, from planning to release.</li>
-            <li>Coordinated 2 cross-functional teams of developers, QA and product managers.</li>
-            <li>Reduced delivery delays by about 25% by handling risks early.</li>
-          </ul>
+          <div class="card">
+            <div class="top">
+              <div><h3>Technical Program Manager</h3><div class="org">Careers360</div><div class="prod">Career guidance platform for students</div></div>
+              <span class="when">Mar 2026 – Jun 2026</span>
+            </div>
+            <ul>
+              <li>Led end-to-end program management for 2 products, from planning to release.</li>
+              <li>Coordinated 2 cross-functional teams of developers, QA and product managers.</li>
+              <li>Reduced delivery delays by about 25% by handling risks early.</li>
+            </ul>
+          </div>
         </div>
         <div class="job reveal">
-          <div class="when">Feb 2025 – Mar 2026</div>
-          <div><h3>Software Development Engineer (SDE-1)</h3><div class="org">MakunaiGlobal Technologies</div><div class="prod">Multi-channel customer engagement platform (WhatsApp, email, SMS)</div></div>
-          <ul>
-            <li>Built REST APIs in FastAPI integrating Meta's WhatsApp Business APIs.</li>
-            <li>Took part in requirement discussions, feature planning and solution design.</li>
-            <li>Managed data in MongoDB and documented technical specs and workflows.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" style="padding-top:20px">
-    <div class="wrap">
-      <div class="reveal">
-        <span class="kicker">Skills &amp; tools</span>
-        <h2>My <span class="serif">toolkit</span></h2>
-      </div>
-      <div class="bento">
-        <div class="cell c1 reveal"><h3>Product management</h3><div class="chips">
-          <span class="chip">Problem discovery</span><span class="chip">PRDs</span><span class="chip">User stories &amp; acceptance criteria</span><span class="chip">User journey &amp; workflow design</span><span class="chip">Feature prioritisation</span><span class="chip">Edge-case analysis</span><span class="chip">Requirements (BRD / FRD)</span><span class="chip">UAT</span>
-        </div></div>
-        <div class="cell c2 reveal"><h3>Tools</h3><div class="chips">
-          <span class="chip">Jira</span><span class="chip">Confluence</span><span class="chip">Figma</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">Lucidchart</span><span class="chip">draw.io</span><span class="chip">Google Analytics</span><span class="chip">Excel</span><span class="chip">Power BI</span>
-        </div></div>
-        <div class="cell c3 reveal"><h3>Project management</h3><div class="chips">
-          <span class="chip">Agile / Scrum</span><span class="chip">Sprint planning</span><span class="chip">Backlog management</span><span class="chip">Risk &amp; dependency management</span><span class="chip">Stakeholder management</span><span class="chip">Status reporting</span><span class="chip">Release coordination</span>
-        </div></div>
-        <div class="cell c4 reveal"><h3>Engineering &amp; AI</h3><div class="chips">
-          <span class="chip">SQL</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">REST APIs</span><span class="chip">MongoDB</span><span class="chip">LLMs</span><span class="chip">NLP</span><span class="chip">Agentic AI workflows</span>
-        </div></div>
-        <div class="cell c5 reveal">
-          <b>Education</b>
-          <div class="edu">
-            <div><strong>MCA</strong>Shri Ramswaroop College of Engineering and Management · 2022–2024</div>
-            <div><strong>BCA</strong>National Post Graduate College, Lucknow · 2019–2022</div>
+          <div class="card">
+            <div class="top">
+              <div><h3>Software Development Engineer (SDE-1)</h3><div class="org">MakunaiGlobal Technologies</div><div class="prod">Multi-channel customer engagement platform (WhatsApp, email, SMS)</div></div>
+              <span class="when">Feb 2025 – Mar 2026</span>
+            </div>
+            <ul>
+              <li>Built REST APIs in FastAPI integrating Meta's WhatsApp Business APIs.</li>
+              <li>Took part in requirement discussions, feature planning and solution design.</li>
+              <li>Managed data in MongoDB and documented technical specs and workflows.</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <span class="eyebrow">Skills &amp; tools</span>
+        <h2>What I bring to a team</h2>
+      </div>
+      <div class="skills">
+        <div class="card skill reveal">
+          <div class="hd"><span class="fi"><svg class="ico"><use href="#i-target"/></svg></span><div><h3>Product management</h3><small>Discovery to definition</small></div></div>
+          <div class="chips"><span class="chip">Problem discovery</span><span class="chip">PRDs</span><span class="chip">User stories &amp; acceptance criteria</span><span class="chip">User journey &amp; workflow design</span><span class="chip">Feature prioritisation</span><span class="chip">Edge-case analysis</span><span class="chip">Requirements (BRD / FRD)</span><span class="chip">UAT</span></div>
+        </div>
+        <div class="card skill reveal">
+          <div class="hd"><span class="fi"><svg class="ico"><use href="#i-kanban"/></svg></span><div><h3>Project management</h3><small>Planning to release</small></div></div>
+          <div class="chips"><span class="chip">Agile / Scrum</span><span class="chip">Sprint planning</span><span class="chip">Backlog management</span><span class="chip">Risk &amp; dependency management</span><span class="chip">Stakeholder management</span><span class="chip">Status reporting</span><span class="chip">Release coordination</span></div>
+        </div>
+        <div class="card skill reveal">
+          <div class="hd"><span class="fi"><svg class="ico"><use href="#i-tool"/></svg></span><div><h3>Tools</h3><small>What I use every day</small></div></div>
+          <div class="chips"><span class="chip">Jira</span><span class="chip">Confluence</span><span class="chip">Figma</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">Lucidchart</span><span class="chip">draw.io</span><span class="chip">Google Analytics</span><span class="chip">Excel</span><span class="chip">Power BI</span></div>
+        </div>
+        <div class="card skill reveal">
+          <div class="hd"><span class="fi"><svg class="ico"><use href="#i-code"/></svg></span><div><h3>Engineering &amp; AI</h3><small>Technical foundation</small></div></div>
+          <div class="chips"><span class="chip">SQL</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">Django</span><span class="chip">REST APIs</span><span class="chip">MongoDB</span><span class="chip">LLMs</span><span class="chip">NLP</span><span class="chip">Agentic AI workflows</span></div>
+        </div>
+      </div>
+      <div class="edu">
+        <div class="card reveal"><span class="fi"><svg class="ico"><use href="#i-cap"/></svg></span><div><h3>Master of Computer Applications (MCA)</h3><p>Shri Ramswaroop College of Engineering and Management, Lucknow · 2022 – 2024</p></div></div>
+        <div class="card reveal"><span class="fi"><svg class="ico"><use href="#i-cap"/></svg></span><div><h3>Bachelor of Computer Applications (BCA)</h3><p>National Post Graduate College, Lucknow · 2019 – 2022</p></div></div>
+      </div>
+    </div>
+  </section>
+
   <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <div class="wrap reveal">
-      <span class="kicker">Contact</span>
-      <h2>Let's build <span class="serif">something useful.</span></h2>
-      <p class="lede">I'm open to Associate Product Manager and Project Manager roles. Email or LinkedIn is the best way to reach me.</p>
-      <div class="ctas">
-        <a class="btn btn-dark" href="mailto:anubhutisrivastava312@gmail.com">Email me <span class="arr">↗</span></a>
-        <a class="btn btn-line" href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+  <section id="contact" style="padding-top:24px">
+    <div class="wrap">
+      <div class="contact-box reveal">
+        <div style="position:relative;z-index:1">
+          <h2>Let's build something useful together</h2>
+          <p>I'm open to Associate Product Manager and Project Manager roles. Email or LinkedIn is the best way to reach me.</p>
+          <div class="ctas">
+            <a class="btn btn-white" href="mailto:anubhutisrivastava312@gmail.com"><svg class="ico"><use href="#i-mail"/></svg>Email me</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener"><svg class="ico"><use href="#i-linkedin"/></svg>Connect on LinkedIn</a>
+          </div>
+        </div>
+        <div class="clist">
+          <a href="mailto:anubhutisrivastava312@gmail.com"><span class="fi"><svg class="ico"><use href="#i-mail"/></svg></span><span><small>Email</small><strong>anubhutisrivastava312@gmail.com</strong></span></a>
+          <a href="https://www.linkedin.com/in/anubhutisrivastava03/" target="_blank" rel="noopener"><span class="fi"><svg class="ico"><use href="#i-linkedin"/></svg></span><span><small>LinkedIn</small><strong>in/anubhutisrivastava03</strong></span></a>
+          <div><span class="fi"><svg class="ico"><use href="#i-pin"/></svg></span><span><small>Location</small><strong>Lucknow, India</strong></span></div>
+        </div>
       </div>
     </div>
   </section>
 </main>
 
-<footer><div class="wrap"><span>© 2026 Anubhuti Srivastava</span><span>Associate Product Manager · Project Manager · Ex-Software Engineer</span></div></footer>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Anubhuti Srivastava · Associate Product Manager · Project Manager · Ex-Software Engineer</span>
+    <nav aria-label="Footer"><a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
+  </div>
+</footer>
 
 <script>
 (function(){
@@ -547,14 +629,24 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
     root.setAttribute('data-theme',next);
     try{localStorage.setItem('theme',next);}catch(e){}
   });
-  var nav=document.querySelector('.nav');
-  function onScroll(){nav.classList.toggle('scrolled',window.scrollY>20)}
+
+  var nav=document.getElementById('nav'), menuBtn=document.getElementById('menuBtn');
+  function onScroll(){nav.classList.toggle('scrolled',window.scrollY>8)}
   window.addEventListener('scroll',onScroll,{passive:true});onScroll();
-  var els=document.querySelectorAll('.reveal');
+  function closeMenu(){nav.classList.remove('open');menuBtn.setAttribute('aria-expanded','false')}
+  menuBtn.addEventListener('click',function(){var o=nav.classList.toggle('open');menuBtn.setAttribute('aria-expanded',o?'true':'false')});
+  document.querySelectorAll('#mobileMenu a').forEach(function(a){a.addEventListener('click',closeMenu)});
+
+  var links=document.querySelectorAll('.nav-links a');
   if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
-    els.forEach(function(el){io.observe(el)});
-  } else { els.forEach(function(el){el.classList.add('in')}); }
+    var spy=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting){links.forEach(function(l){l.classList.toggle('active',l.getAttribute('href')==='#'+e.target.id)})}
+    })},{rootMargin:'-45% 0px -50% 0px'});
+    document.querySelectorAll('main section[id]').forEach(function(s){spy.observe(s)});
+
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.1});
+    document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+  } else { document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')}); }
 })();
 </script>
 </body>
