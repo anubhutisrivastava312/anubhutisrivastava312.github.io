@@ -222,7 +222,7 @@
       <div class="flex flex-col gap-2 reveal">
         <span class="eyebrow">How I work</span>
         <h2 class="text-headline-lg-mobile sm:text-headline-lg">From a fuzzy problem to a shipped feature.</h2>
-        <p class="text-on-surface-variant max-w-2xl">The same three steps, whether it's a logistics workflow or a student-facing predictor.</p>
+        <p class="text-on-surface-variant max-w-2xl">The same three steps, whether it's a logistics workflow or a student guidance product.</p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
         <div class="reveal p-space-lg rounded-2xl bg-surface-container-low flex flex-col gap-space-md">
@@ -253,7 +253,7 @@
 
       <!-- Case 1 -->
       <article class="reveal p-space-md sm:p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low flex flex-col lg:flex-row gap-space-lg shadow-lg">
-        <div class="w-full lg:w-5/12 lg:self-start bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
+        <div class="w-full lg:w-5/12 lg:self-start lg:sticky lg:top-24 bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
           <div class="flex items-center justify-between gap-2">
             <div class="flex items-center gap-2 min-w-0">
               <span class="w-2.5 h-2.5 rounded-full bg-tertiary-container shrink-0"></span><span class="w-2.5 h-2.5 rounded-full bg-secondary shrink-0"></span><span class="w-2.5 h-2.5 rounded-full bg-lime shrink-0"></span>
@@ -291,29 +291,64 @@
 
       <!-- Case 2 -->
       <article class="reveal p-space-md sm:p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low flex flex-col lg:flex-row gap-space-lg shadow-lg">
-        <div class="w-full lg:w-5/12 bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
-          <div class="flex items-center justify-between"><span class="text-label-sm text-outline">College Predictor</span><span class="px-2 py-0.5 rounded-full bg-lime/20 text-lime text-label-sm">Released on time</span></div>
-          <div class="flex items-end gap-1.5 h-24 px-1">
-            <i class="flex-1 rounded-t bg-primary-container/40 h-[30%]"></i><i class="flex-1 rounded-t bg-primary-container/50 h-[45%]"></i><i class="flex-1 rounded-t bg-primary-container/60 h-[40%]"></i><i class="flex-1 rounded-t bg-secondary-container/70 h-[65%]"></i><i class="flex-1 rounded-t bg-secondary-container/80 h-[58%]"></i><i class="flex-1 rounded-t bg-tertiary-container/80 h-[82%]"></i><i class="flex-1 rounded-t bg-tertiary-container h-full"></i>
-          </div>
+        <div class="w-full lg:w-5/12 lg:self-start lg:sticky lg:top-24 bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
+          <div class="flex items-center justify-between gap-2"><span class="text-label-sm text-outline">Companion · student home</span><span class="px-2 py-0.5 rounded-full bg-lime/20 text-lime text-label-sm">Released on time</span></div>
+          <div class="flex flex-wrap gap-1.5 text-label-sm"><span class="px-2 py-0.5 rounded-full bg-primary-container text-white">After Class 12</span><span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">Any field</span><span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant">India &amp; abroad</span></div>
           <div class="grid grid-cols-2 gap-2">
-            <div class="p-3 rounded-lg bg-surface-container"><div class="text-label-sm text-on-surface-variant">Predicted rank</div><div class="text-headline-sm font-bold">4,820</div></div>
-            <div class="p-3 rounded-lg bg-surface-container"><div class="text-label-sm text-on-surface-variant">College matches</div><div class="text-headline-sm font-bold text-secondary">27</div></div>
+            <div class="p-3 rounded-lg bg-surface-container"><div class="flex items-center gap-1.5 text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-cyan text-[18px]">insights</span>Rank predictor</div><div class="text-headline-sm font-bold mt-1">4,820</div><div class="text-label-sm text-outline">Predicted rank</div></div>
+            <div class="p-3 rounded-lg bg-surface-container"><div class="flex items-center gap-1.5 text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-cyan text-[18px]">school</span>College predictor</div><div class="text-headline-sm font-bold text-secondary mt-1">27</div><div class="text-label-sm text-outline">Colleges matched</div></div>
           </div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">forum</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Talk to a coach</span><span class="block text-label-sm text-on-surface-variant truncate">1:1 counselling session · Sat, 5 PM</span></span><span class="text-label-sm text-lime font-bold">Booked</span></div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">calendar_month</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Webinar</span><span class="block text-label-sm text-on-surface-variant truncate">Studying abroad: what to know</span></span><span class="text-label-sm text-secondary font-bold">Enrolled</span></div>
           <div class="text-label-sm text-outline flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">school</span>Career guidance app · sample screen</div>
         </div>
         <div class="w-full lg:w-7/12 flex flex-col gap-space-md">
           <div class="flex flex-wrap items-center gap-2"><span class="px-2.5 py-0.5 rounded-full bg-surface-container-highest text-secondary text-label-sm uppercase">Project management</span><span class="text-label-sm text-outline">EdTech · Careers360</span></div>
-          <h3 class="text-headline-sm sm:text-headline-md font-bold">Rank &amp; college predictors, delivered on time</h3>
+          <h3 class="text-headline-sm sm:text-headline-md font-bold">Companion: a career guide and coach for every student after Class 12</h3>
+          <p class="text-on-surface-variant">Choosing a college after Class 12 is one of the biggest decisions a student makes. <b class="text-on-surface">Companion works like a personal guide and coach</b>. It helps students pick a career and a college that suit them, in India or abroad, and gives them data, expert advice and learning in one app.</p>
           <div class="flex flex-col gap-2">
-            <p><span class="text-label-md text-secondary font-bold uppercase">Problem: </span><span class="text-on-surface-variant">Students choosing colleges after Class 12 needed personalised, data-driven guidance, on tight deadlines.</span></p>
-            <p><span class="text-label-md text-primary font-bold uppercase">What I did: </span><span class="text-on-surface-variant">Ran program management for 2 products with 2 cross-functional teams: sprint planning, stand-ups, reviews, dependency tracking and stakeholder updates.</span></p>
+            <span class="text-label-md text-secondary font-bold uppercase">Who it's for</span>
+            <p class="text-on-surface-variant">Any student who has finished Class 12, whatever field they want to choose. Whether a student is heading into engineering, medicine, management, law, design or any other stream, Companion helps them find the right career path and college, in India or abroad.</p>
+            <div class="flex flex-wrap gap-2"><span class="chip">Engineering</span><span class="chip">Medicine</span><span class="chip">Management</span><span class="chip">Law</span><span class="chip">Design</span><span class="chip">Commerce</span><span class="chip">Science</span><span class="chip">Arts &amp; humanities</span><span class="chip">Study abroad</span></div>
           </div>
+          <div class="flex flex-col gap-2">
+            <span class="text-label-md text-secondary font-bold uppercase">The problem</span>
+            <p class="text-on-surface-variant">After Class 12, students and parents have a lot of questions: <i>Which field is right for me? Which colleges can I get into? Should I study in India or abroad? Who can I trust for advice?</i> The answers are spread across websites, coaching centres and word of mouth, so families often decide with guesswork.</p>
+          </div>
+          <div class="flex flex-col gap-2">
+            <span class="text-label-md text-primary font-bold uppercase">How Companion helps</span>
+            <ul class="grid sm:grid-cols-2 gap-2">
+              <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-tertiary font-bold">Rank predictor</span><span class="text-label-md text-on-surface-variant">For entrance exams, the student enters their performance and gets an estimate of their likely rank, so they know where they stand early.</span></li>
+              <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-cyan font-bold">College predictor</span><span class="text-label-md text-on-surface-variant">Using that rank and the student's profile, it shows colleges in India and abroad where they have a realistic chance.</span></li>
+              <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-primary font-bold">Talk to a coach</span><span class="text-label-md text-on-surface-variant">Students connect with career coaches and book one-to-one counselling sessions for advice that's personal to them.</span></li>
+              <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-secondary font-bold">Webinars</span><span class="text-label-md text-on-surface-variant">Students enrol in live sessions with experts on admissions, career options and studying abroad.</span></li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-2">
+            <span class="text-label-md text-primary font-bold uppercase">A student's journey</span>
+            <ol class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-label-md">
+              <li class="p-3 rounded-xl bg-surface-container"><b class="block text-primary">1 · Predict</b><span class="text-on-surface-variant">Checks their likely rank</span></li>
+              <li class="p-3 rounded-xl bg-surface-container"><b class="block text-secondary">2 · Explore</b><span class="text-on-surface-variant">Sees matching colleges</span></li>
+              <li class="p-3 rounded-xl bg-surface-container"><b class="block text-tertiary">3 · Learn</b><span class="text-on-surface-variant">Joins a webinar</span></li>
+              <li class="p-3 rounded-xl bg-surface-container"><b class="block text-cyan">4 · Decide</b><span class="text-on-surface-variant">Talks it through with a coach</span></li>
+            </ol>
+          </div>
+          <div class="flex flex-col gap-2">
+            <span class="text-label-md text-primary font-bold uppercase">What I did</span>
+            <p class="text-on-surface-variant">As Technical Program Manager, I made sure features reached students on time. I managed 2 products and 2 cross-functional teams (engineering, QA, product and design), including the rank and college predictors that are personalised to each student.</p>
+            <ul class="list-disc pl-5 text-on-surface-variant space-y-1 marker:text-secondary">
+              <li>Planned each release and broke the work into sprints.</li>
+              <li>Ran stand-ups, sprint reviews and planning so every team knew what was next.</li>
+              <li>Tracked dependencies between teams and flagged risks early, which cut delivery delays by about 25%.</li>
+              <li>Kept business and engineering aligned on scope and timelines with regular stakeholder updates.</li>
+            </ul>
+          </div>
+          <div class="p-3 rounded-xl bg-surface-container flex items-start gap-2"><span class="material-symbols-outlined text-lime text-[20px]">verified</span><span>Instead of jumping between websites, coaching centres and guesswork, students get predictions, expert advice and learning in one place.</span></div>
           <div class="grid grid-cols-2 gap-3 p-3 rounded-xl bg-surface-container">
             <div><div class="text-headline-md font-extrabold text-secondary">~25%</div><div class="text-label-sm text-on-surface-variant">Fewer delivery delays</div></div>
             <div><div class="text-headline-md font-extrabold text-lime">2 + 2</div><div class="text-label-sm text-on-surface-variant">Products released · teams coordinated</div></div>
           </div>
-          <div class="flex flex-wrap gap-2 mt-auto"><span class="chip">Scrum</span><span class="chip">Jira</span><span class="chip">Risk management</span><span class="chip">Stakeholders</span></div>
+          <div class="flex flex-wrap gap-2 mt-auto"><span class="chip">EdTech</span><span class="chip">Scrum</span><span class="chip">Jira</span><span class="chip">Risk management</span><span class="chip">Stakeholders</span></div>
         </div>
       </article>
 
@@ -365,10 +400,11 @@
         <div class="reveal relative flex flex-col gap-2 bg-surface-container-low p-space-md sm:p-space-lg rounded-2xl">
           <div class="absolute -left-[23px] lg:-left-[27px] top-7 w-4 h-4 rounded-full bg-secondary-container ring-4 ring-background"></div>
           <div class="flex flex-wrap items-start justify-between gap-2">
-            <div><h3 class="text-title-md font-bold">Technical Program Manager</h3><div class="text-secondary font-semibold">Careers360</div><div class="text-label-md text-outline">Career guidance platform for students</div></div>
+            <div><h3 class="text-title-md font-bold">Technical Program Manager</h3><div class="text-secondary font-semibold">Careers360</div><div class="text-label-md text-outline">Companion: career and college guide for students after Class 12</div></div>
             <span class="px-3 py-1 rounded-full bg-surface-container-highest text-label-sm">Mar 2026 – Jun 2026</span>
           </div>
           <ul class="list-disc pl-5 text-on-surface-variant space-y-1 pt-1 marker:text-secondary">
+            <li>Delivered features for a product that helps students choose careers and colleges in India and abroad, with coach counselling, webinars and rank and college predictors.</li>
             <li>Led end-to-end program management for 2 products, from planning to release.</li>
             <li>Coordinated 2 cross-functional teams of developers, QA and product managers.</li>
             <li>Reduced delivery delays by about 25% by handling risks early.</li>
