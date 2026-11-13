@@ -20,7 +20,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=alternate_email,architecture,arrow_downward,arrow_upward,assignment,bolt,build,calendar_month,check_circle,code_blocks,content_copy,conversion_path,dark_mode,description,folder_special,forum,insights,light_mode,local_shipping,location_on,mail,memory,menu,person,rocket_launch,school,send,speed,trending_down,troubleshoot,verified,work_history,workspace_premium&display=block" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_balance,alternate_email,architecture,arrow_downward,arrow_upward,assignment,bolt,build,calendar_month,check_circle,code_blocks,content_copy,conversion_path,dark_mode,description,factory,folder_special,forum,insights,light_mode,local_shipping,location_on,mail,memory,menu,person,rocket_launch,school,send,speed,trending_down,troubleshoot,verified,warehouse,work_history,workspace_premium&display=block" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
 </head>
 <body class="bg-background font-sans text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-white">
@@ -183,7 +183,7 @@
           </div>
         </div>
         <div class="flex flex-col gap-space-md text-body-lg text-on-surface-variant">
-          <p>I'm an <b class="text-on-surface">Associate Product Manager</b> on an end-to-end logistics platform. I find where users' workflows break and turn that into PRDs, user stories and acceptance criteria, then work with design, engineering and QA until the feature is released.</p>
+          <p>I'm an <b class="text-on-surface">Associate Product Manager</b> on CargoSphere, an end-to-end logistics and supply chain platform where every party in a shipment works on one shared record. I find where users' workflows break and turn that into PRDs, user stories and acceptance criteria, then work with design, engineering and QA until the feature is released.</p>
           <p>Before that, as a <b class="text-on-surface">Technical Program Manager</b> at Careers360, I took 2 products from planning to release with 2 cross-functional teams, and caught risks early enough to cut delays by about 25%.</p>
           <p>I started as a <b class="text-on-surface">software engineer</b> building REST APIs and WhatsApp integrations in Python and FastAPI. That's why developers trust my requirements and my timelines.</p>
         </div>
@@ -253,31 +253,38 @@
 
       <!-- Case 1 -->
       <article class="reveal p-space-md sm:p-space-lg lg:p-space-xl rounded-2xl bg-surface-container-low flex flex-col lg:flex-row gap-space-lg shadow-lg">
-        <div class="w-full lg:w-5/12 bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
-          <div class="flex items-center justify-between">
-            <div class="flex items-center gap-2">
-              <span class="w-2.5 h-2.5 rounded-full bg-tertiary-container"></span><span class="w-2.5 h-2.5 rounded-full bg-secondary"></span><span class="w-2.5 h-2.5 rounded-full bg-lime"></span>
-              <span class="text-label-sm text-outline ml-2">Supporting documents</span>
+        <div class="w-full lg:w-5/12 lg:self-start bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-3 shadow-inner" aria-hidden="true">
+          <div class="flex items-center justify-between gap-2">
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="w-2.5 h-2.5 rounded-full bg-tertiary-container shrink-0"></span><span class="w-2.5 h-2.5 rounded-full bg-secondary shrink-0"></span><span class="w-2.5 h-2.5 rounded-full bg-lime shrink-0"></span>
+              <span class="text-label-sm text-outline ml-2 truncate">Shipment #SHP-24817 · shared record</span>
             </div>
-            <span class="px-2 py-0.5 rounded-full bg-primary-container/30 text-primary text-label-sm">Logistics</span>
+            <span class="px-2 py-0.5 rounded-full bg-lime/20 text-lime text-label-sm shrink-0">Live</span>
           </div>
-          <div class="grid grid-cols-4 gap-1 text-center text-label-sm">
-            <span class="py-1.5 rounded-lg bg-primary-container text-white">Upload</span><span class="py-1.5 rounded-lg bg-primary-container/60 text-white">Review</span><span class="py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant">Approve</span><span class="py-1.5 rounded-lg bg-surface-container-high text-on-surface-variant">Archive</span>
-          </div>
-          <div class="p-3 rounded-lg bg-surface-container flex items-center justify-between"><span class="flex items-center gap-2 text-label-md font-semibold"><span class="material-symbols-outlined text-cyan text-[20px]">description</span>Bill of Lading</span><span class="text-label-sm text-lime font-bold">Approved</span></div>
-          <div class="p-3 rounded-lg bg-surface-container flex items-center justify-between"><span class="flex items-center gap-2 text-label-md font-semibold"><span class="material-symbols-outlined text-cyan text-[20px]">description</span>Commercial Invoice</span><span class="text-label-sm text-secondary font-bold">In review</span></div>
-          <div class="p-3 rounded-lg bg-surface-container flex items-center justify-between"><span class="flex items-center gap-2 text-label-md font-semibold"><span class="material-symbols-outlined text-cyan text-[20px]">description</span>Packing List</span><span class="text-label-sm text-outline font-bold">Pending</span></div>
-          <div class="p-3 rounded-lg bg-surface-container flex items-center justify-between"><span class="flex items-center gap-2 text-label-md font-semibold"><span class="material-symbols-outlined text-cyan text-[20px]">description</span>Certificate of Origin</span><span class="text-label-sm text-lime font-bold">Approved</span></div>
+          <div class="text-label-sm text-on-surface-variant">Every party works on the same record:</div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">factory</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Shipper</span><span class="block text-label-sm text-on-surface-variant truncate">Shared invoice &amp; packing list</span></span><span class="text-label-sm text-lime font-bold">Done</span></div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">local_shipping</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Freight forwarder</span><span class="block text-label-sm text-on-surface-variant truncate">Booked carrier, issued bill of lading</span></span><span class="text-label-sm text-lime font-bold">Done</span></div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">account_balance</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Customs broker</span><span class="block text-label-sm text-on-surface-variant truncate">Filing customs declaration</span></span><span class="text-label-sm text-secondary font-bold">In progress</span></div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">warehouse</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Warehouse</span><span class="block text-label-sm text-on-surface-variant truncate">Ready to receive cargo</span></span><span class="text-label-sm text-outline font-bold">Next</span></div>
+          <div class="p-2.5 rounded-lg bg-surface-container flex items-center gap-2.5"><span class="material-symbols-outlined text-cyan text-[20px]">person</span><span class="flex-1 min-w-0"><span class="block text-label-md font-semibold">Consignee</span><span class="block text-label-sm text-on-surface-variant truncate">Tracking status and documents</span></span><span class="text-label-sm text-outline font-bold">Viewing</span></div>
+          <div class="text-label-sm text-outline flex items-center gap-1.5"><span class="material-symbols-outlined text-[16px]">description</span>Documents shared once, visible to every party · sample screen</div>
         </div>
         <div class="w-full lg:w-7/12 flex flex-col gap-space-md">
-          <div class="flex flex-wrap items-center gap-2"><span class="px-2.5 py-0.5 rounded-full bg-surface-container-highest text-primary text-label-sm uppercase">Product management</span><span class="text-label-sm text-outline">Logistics · Thrymr Software</span></div>
-          <h3 class="text-headline-sm sm:text-headline-md font-bold">One configurable document workflow for a logistics platform</h3>
+          <div class="flex flex-wrap items-center gap-2"><span class="px-2.5 py-0.5 rounded-full bg-surface-container-highest text-primary text-label-sm uppercase">Product management</span><span class="text-label-sm text-outline">Logistics &amp; supply chain · Thrymr Software</span></div>
+          <h3 class="text-headline-sm sm:text-headline-md font-bold">CargoSphere: one shared platform for every party in a shipment</h3>
+          <p class="text-on-surface-variant">CargoSphere is an ecosystem for end-to-end logistics and supply chain operations. It isn't just a document tool. Everyone involved in a shipment comes to the same platform, does their own part of the job and shares documents with the other parties, all on one shared shipment record.</p>
           <div class="flex flex-col gap-2">
-            <p><span class="text-label-md text-secondary font-bold uppercase">Problem: </span><span class="text-on-surface-variant">Supporting documents had to move through many document types and business roles, and a separate flow for each one wouldn't scale.</span></p>
-            <p><span class="text-label-md text-primary font-bold uppercase">What I did: </span><span class="text-on-surface-variant">Owned the feature from discovery to UAT. I chose one configurable workflow over one-off flows and wrote the PRD and user stories, covering business rules, validations and edge cases.</span></p>
+            <p><span class="text-label-md text-secondary font-bold uppercase">The problem: </span><span class="text-on-surface-variant">A single shipment passes through many companies and teams. Each handoff ran on paperwork, emails, spreadsheets and phone calls. Documents were re-typed, lost or chased, and nobody had one view of where the shipment stood.</span></p>
+            <p><span class="text-label-md text-primary font-bold uppercase">How the platform solves it: </span><span class="text-on-surface-variant">It digitises those process flows, so the manual work and paperwork move into one place.</span></p>
           </div>
-          <div class="p-3 rounded-xl bg-surface-container flex items-start gap-2"><span class="material-symbols-outlined text-lime text-[20px]">verified</span><span>Document handling became consistent and scalable across the product.</span></div>
-          <div class="flex flex-wrap gap-2 mt-auto"><span class="chip">PRD</span><span class="chip">User stories</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">UAT</span></div>
+          <ol class="grid sm:grid-cols-3 gap-2">
+            <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-primary font-bold">1 · Own role</span><span class="text-label-md text-on-surface-variant">Each party signs in and sees only the tasks that are theirs.</span></li>
+            <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-secondary font-bold">2 · Do the work</span><span class="text-label-md text-on-surface-variant">They complete their step and upload the documents it needs.</span></li>
+            <li class="p-3 rounded-xl bg-surface-container flex flex-col gap-1"><span class="text-label-sm text-tertiary font-bold">3 · Share once</span><span class="text-label-md text-on-surface-variant">Every other party sees the update in the same shared record.</span></li>
+          </ol>
+          <p><span class="text-label-md text-primary font-bold uppercase">What I do: </span><span class="text-on-surface-variant">As APM / Business Analyst, I study how each party works today, find where the manual effort and paperwork pile up, and turn that into digital workflows. So far that's 15+ workflows and 40+ features, each with a PRD, user stories, acceptance criteria and edge cases. One example: supporting documents had to work across many document types and roles, so I defined one configurable document workflow instead of a separate flow for each.</span></p>
+          <div class="p-3 rounded-xl bg-surface-container flex items-start gap-2"><span class="material-symbols-outlined text-lime text-[20px]">verified</span><span>Work that used to happen on paper and over email now happens in one place, with less manual effort and one source of truth for every party.</span></div>
+          <div class="flex flex-wrap gap-2 mt-auto"><span class="chip">15+ workflows</span><span class="chip">40+ features</span><span class="chip">PRDs</span><span class="chip">User stories</span><span class="chip">Miro</span><span class="chip">Visio</span><span class="chip">UAT</span></div>
         </div>
       </article>
 
@@ -344,12 +351,13 @@
         <div class="reveal relative flex flex-col gap-2 bg-surface-container-low p-space-md sm:p-space-lg rounded-2xl">
           <div class="absolute -left-[23px] lg:-left-[27px] top-7 w-4 h-4 rounded-full bg-primary-container ring-4 ring-background"></div>
           <div class="flex flex-wrap items-start justify-between gap-2">
-            <div><h3 class="text-title-md font-bold">Associate Product Manager / Business Analyst</h3><div class="text-secondary font-semibold">Thrymr Software</div><div class="text-label-md text-outline">End-to-end logistics management platform</div></div>
+            <div><h3 class="text-title-md font-bold">Associate Product Manager / Business Analyst</h3><div class="text-secondary font-semibold">Thrymr Software</div><div class="text-label-md text-outline">CargoSphere: end-to-end logistics and supply chain platform</div></div>
             <span class="px-3 py-1 rounded-full bg-surface-container-highest text-lime text-label-sm">Jun 2026 – Present</span>
           </div>
           <ul class="list-disc pl-5 text-on-surface-variant space-y-1 pt-1 marker:text-primary">
+            <li>Work on a platform where every party in a shipment does its own work and shares documents on one shared record.</li>
+            <li>Turned manual, paper-based logistics processes into 15+ digital workflows and 40+ features, with PRDs, user stories and acceptance criteria.</li>
             <li>Own the configurable supporting-document workflow from discovery to UAT.</li>
-            <li>Turn user pain points in logistics operations into features, PRDs, user stories and acceptance criteria.</li>
             <li>Design workflows in Miro and Visio and ship them with engineering and QA across Agile sprints.</li>
           </ul>
         </div>
